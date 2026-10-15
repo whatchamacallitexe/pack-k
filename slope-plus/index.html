@@ -1,0 +1,60 @@
+<!-- Ultimate Game Stash file-->
+<!-- https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <base href="https://cdn.jsdelivr.net/gh/gn-math/assets@51462750d29b68ac1e33887c1bf13d9c478d5ead/198/">
+    <meta charset="utf-8">
+    <title>Slope Plus</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <style>html,body{margin:0;padding:0;overflow:hidden;height:100%;width:100%}</style>
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        function mergeFiles(fileParts) {
+            return new Promise((resolve, reject) => {
+                let buffers = [];
+                function fetchPart(index) {
+                    if (index >= fileParts.length) {
+                        resolve(URL.createObjectURL(new Blob(buffers)));
+                        return;
+                    }
+                    fetch(fileParts[index]).then(r => r.arrayBuffer()).then(data => {
+                        buffers.push(data);
+                        fetchPart(index + 1);
+                    }).catch(reject);
+                }
+                fetchPart(0);
+            });
+        }
+        function getParts(file, start, end) {
+            let parts = [];
+            for (let i = start; i <= end; i++) parts.push(file + ".part" + i);
+            return parts;
+        }
+        window.onload = function () {
+            Promise.all([
+                mergeFiles(getParts("https://cdn.jsdelivr.net/gh/gn-math/assets@51462750d29b68ac1e33887c1bf13d9c478d5ead/198/Build/WEB1.2.1.data.unityweb", 1, 2))
+            ]).then(([dataUrl]) => {
+                let json = {
+                    companyName: "Slope Plus",
+                    productName: "Slope Plus",
+                    dataUrl: dataUrl,
+                    wasmCodeUrl: "https://cdn.jsdelivr.net/gh/gn-math/assets@51462750d29b68ac1e33887c1bf13d9c478d5ead/198/Build/WEB1.2.1.wasm.code.unityweb",
+                    wasmFrameworkUrl: "https://cdn.jsdelivr.net/gh/gn-math/assets@51462750d29b68ac1e33887c1bf13d9c478d5ead/198/Build/WEB1.2.1.wasm.framework.unityweb",
+                    TOTAL_MEMORY: 268435456,
+                    graphicsAPI: ["WebGL 2.0", "WebGL 1.0"],
+                    webglContextAttributes: { preserveDrawingBuffer: false },
+                    splashScreenStyle: "Dark",
+                    backgroundColor: "#000000"
+                };
+                let blobUrl = URL.createObjectURL(new Blob([JSON.stringify(json)], { type: "application/json" }));
+                UnityLoader.instantiate("gameContainer", json, { onProgress: UnityProgress, url: blobUrl });
+            });
+        };
+    </script>
+</head>
+<body>
+    <div class="webgl-content"><div id="gameContainer"></div></div>
+</body>
+</html>
