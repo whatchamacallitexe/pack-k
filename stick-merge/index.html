@@ -1,73 +1,31 @@
+<!-- Ultimate Game Stash file-->
 <!DOCTYPE html>
-
-
-<!-- Ultimate Game Stash file--> 
-<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
-
-
-<html style="height: 100%;">
-<base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@bba3c3c4e71662c9d41dea31e564fa9952c123af/stick%20merge/">
+<html lang="en-us">
 <head>
+  <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@bba3c3c4e71662c9d41dea31e564fa9952c123af/stick%20merge/">
+  <meta charset="utf-8">
   <title>Stick Merge</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="robots" content="noindex,nofollow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8">
-
-  <script src="poki-sdk.js"></script>
-  <script src="poki-sdk-core-v2.263.0.js" type="text/javascript" crossorigin="anonymous"></script>
-  <script src="js/webfont.js"></script>
-  <script src="js/phaser.min.js"></script>
-  <script src="js/SpinePlugin.min.js"></script>
-  <script src="js/plugin-api-poki.js"></script>
-  <script src="js/HorizontalSlider.js"></script>
-  <script src="js/Buttons.js"></script>
-
-  <style>
-    .pokiSdkContainer {
-      overflow: hidden;
-      position: absolute;
-      left: 0; top: 0; width: 100%; height: 100%;
-      z-index: 1000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .pokiSdkContainer.pokiSdkFixed { position: fixed; }
-    .pokiSdkContainer.pokiSdkVisible { display: block; }
-    .pokiSdkContainer.pokiSdkHidden,
-    .pokiSdkSpinnerContainer.pokiSdkHidden { display: none; }
-    .pokiSdkContainer.pokiSdkHidden,
-    .pokiSdkSpinnerContainer { pointer-events: none; }
-    .pokiSdkSpinnerContainer {
-      z-index: 10;
-      position: absolute;
-      top: 0; left: 0; width: 100%; height: 100%;
-      background: url('images/thumb_anim_2x.gif') 50% 50% no-repeat;
-      user-select: none;
-    }
-    .pokiSdkInsideContainer {
-      background: #000;
-      position: relative;
-      z-index: 1;
-      width: 100%; height: 100%;
-      display: flex;
-      flex-direction: column;
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
-    }
-    .pokiSdkContainer.pokiSdkVisible .pokiSdkInsideContainer { opacity: 1; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
-<body style="height: 100%;">
-  <div id="game-container" style="overflow: hidden; width: 100%; height: 100%;">
-  </div>
-  <div id="orientation"></div>
-  <div id="banner"></div>
-  <script src="js/m.js"></script>
+<body style="margin:0;overflow:hidden;background:#000">
+  <canvas id="unity-canvas" style="width:100vw;height:100vh"></canvas>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var buildUrl = "Build";
+    var loaderUrl = buildUrl + "/WebGL.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/WebGL.data",
+      frameworkUrl: buildUrl + "/WebGL.framework.js",
+      codeUrl: buildUrl + "/WebGL.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Stick Merge",
+      productVersion: "1.0",
+    };
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => { createUnityInstance(canvas, config).catch(console.error); };
+    document.body.appendChild(script);
+  </script>
 </body>
-
 </html>
