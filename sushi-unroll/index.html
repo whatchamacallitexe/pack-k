@@ -1,26 +1,14 @@
+<!-- Ultimate Game Stash file-->
 <!DOCTYPE html>
-<!-- Ultimate Game Stash file--> 
-<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
-<html>
+<html lang="en-us">
 <head>
-  <meta charset="utf-8" />
   <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@027a7fc4b20820dc401547a74cf4f2ee875cd3e2/sushi%20unroll/">
-  <meta name="viewport" content="width=device-width, user-scalable=no" />
-  <title>SUSHI unROLL</title>
-  <style>
-    body { touch-action: none; margin: 0; padding: 0; text-align: center; background-color: black; }
-    #canvas { display: block; margin: 0; color: white; }
-  </style>
+  <meta charset="utf-8">
+  <title>Sushi Unroll</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-  <canvas id="canvas"></canvas>
+<body style="margin:0;overflow:hidden;background:#000">
+  <canvas id="canvas" style="width:100vw;height:100vh"></canvas>
   <script src="index.js"></script>
-  <script>
-    const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{},"focusCanvas":true,"gdnativeLibs":[]};
-    if (typeof Engine !== 'undefined') {
-      var engine = new Engine(GODOT_CONFIG);
-      engine.startGame();
-    }
-  </script>
 </body>
 </html>

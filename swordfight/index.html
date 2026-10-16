@@ -1,19 +1,31 @@
+<!-- Ultimate Game Stash file-->
 <!DOCTYPE html>
-<!-- Ultimate Game Stash file--> 
-<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
 <html lang="en-us">
 <head>
   <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/swordfight/">
   <meta charset="utf-8">
   <title>Swordfight</title>
-  <link rel="stylesheet" href="TemplateData/style.css">
-  <script src="TemplateData/UnityProgress.js"></script>
-  <script src="Build/UnityLoader.js"></script>
-  <script>
-    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
-  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body style="margin:0; overflow:hidden; background:#000;">
-  <div id="gameContainer" style="width: 100%; height: 100%; margin: auto"></div>
+<body style="margin:0;overflow:hidden;background:#000">
+  <canvas id="unity-canvas" style="width:100vw;height:100vh"></canvas>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var buildUrl = "Build";
+    var loaderUrl = buildUrl + "/WebGL.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/WebGL.data",
+      frameworkUrl: buildUrl + "/WebGL.framework.js",
+      codeUrl: buildUrl + "/WebGL.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Swordfight",
+      productVersion: "1.0",
+    };
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => { createUnityInstance(canvas, config).catch(console.error); };
+    document.body.appendChild(script);
+  </script>
 </body>
 </html>
