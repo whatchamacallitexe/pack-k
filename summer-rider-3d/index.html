@@ -1,0 +1,27 @@
+<!-- Ultimate Game Stash file-->
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Summer Rider 3D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>html,body{margin:0;overflow:hidden;background:#000;height:100%;width:100%}#unity-canvas{width:100vw;height:100vh;display:block}</style>
+</head>
+<body>
+  <canvas id="unity-canvas"></canvas>
+  <script src="https://cdn.jsdelivr.net/gh/papamamia/447755@main/Build/SummerRiderV1.5.loader.js"></script>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var config = {
+      dataUrl: "https://cdn.jsdelivr.net/gh/papamamia/447755@main/Build/SummerRiderV1.5.data.unityweb",
+      frameworkUrl: "https://cdn.jsdelivr.net/gh/papamamia/447755@main/Build/SummerRiderV1.5.framework.js.unityweb",
+      codeUrl: "https://cdn.jsdelivr.net/gh/papamamia/447755@main/Build/SummerRiderV1.5.wasm.unityweb",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Summer Rider 3D",
+      productVersion: "1.5",
+    };
+    createUnityInstance(canvas, config).catch(console.error);
+  </script>
+</body>
+</html>
