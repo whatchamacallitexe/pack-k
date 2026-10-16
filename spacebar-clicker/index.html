@@ -1,0 +1,28 @@
+<!-- Ultimate Game Stash file-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Spacebar Clicker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>html,body{margin:0;overflow:hidden;background:#111;height:100%;width:100%;font-family:sans-serif;color:#fff;display:flex;align-items:center;justify-content:center;flex-direction:column}
+  #count{font-size:64px;font-weight:bold}#label{opacity:0.7}</style>
+</head>
+<body>
+  <div id="label">Spacebar clicks</div>
+  <div id="count">0</div>
+  <script>
+    let n = parseInt(localStorage.getItem('spc')||'0',10);
+    const el = document.getElementById('count');
+    el.textContent = n;
+    window.addEventListener('keydown', e => {
+      if (e.code === 'Space') {
+        e.preventDefault();
+        n++;
+        el.textContent = n;
+        localStorage.setItem('spc', String(n));
+      }
+    });
+  </script>
+</body>
+</html>

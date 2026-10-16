@@ -1,2 +1,30 @@
+<!-- Ultimate Game Stash file-->
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>Sniper Shot</title><style>html,body{margin:0;height:100%;background:#000;overflow:hidden}iframe{border:0;width:100%;height:100%;position:fixed;inset:0}</style></head><body><iframe src="https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnipershot.html" allow="fullscreen; gamepad; autoplay" allowfullscreen></iframe></body></html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Sniper Shot</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/meymenet645x/xu@main/TemplateData/style.css">
+</head>
+<body style="margin:0;overflow:hidden;background:#000">
+  <canvas id="unity-canvas" style="width:100vw;height:100vh"></canvas>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var buildUrl = "https://cdn.jsdelivr.net/gh/meymenet645x/xu@main/Build";
+    var loaderUrl = buildUrl + "/SniperShot_GD.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/SniperShot_GD.data.unityweb",
+      frameworkUrl: buildUrl + "/SniperShot_GD.framework.js.unityweb",
+      codeUrl: buildUrl + "/SniperShot_GD.wasm.unityweb",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Sniper Shot",
+      productVersion: "1.0",
+    };
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => { createUnityInstance(canvas, config).catch(console.error); };
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
