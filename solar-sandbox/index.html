@@ -1,2 +1,31 @@
+<!-- Ultimate Game Stash file-->
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>Solar Sandbox</title><style>html,body{margin:0;height:100%;background:#000;overflow:hidden}iframe{border:0;width:100%;height:100%;position:fixed;inset:0}</style></head><body><iframe src="https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsolarsandbox.html" allow="fullscreen; gamepad; autoplay" allowfullscreen></iframe></body></html>
+<html lang="en-us">
+<head>
+  <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/solar-sandbox/">
+  <meta charset="utf-8">
+  <title>Solar Sandbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;overflow:hidden;background:#000">
+  <canvas id="unity-canvas" style="width:100vw;height:100vh"></canvas>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var buildUrl = "Build";
+    var loaderUrl = buildUrl + "/WebGL.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/WebGL.data",
+      frameworkUrl: buildUrl + "/WebGL.framework.js",
+      codeUrl: buildUrl + "/WebGL.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Solar Sandbox",
+      productVersion: "1.0",
+    };
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => { createUnityInstance(canvas, config).catch(console.error); };
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
