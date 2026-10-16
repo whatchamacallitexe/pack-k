@@ -1,0 +1,33 @@
+<!-- Ultimate Game Stash file-->
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <base href="https://cdn.jsdelivr.net/gh/bubblfan/web-port@latest/sonic.exe/">
+  <meta charset="utf-8">
+  <title>Sonic.EXE Original</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;overflow:hidden;background:#000">
+  <div id="unity-container">
+    <canvas id="unity-canvas"></canvas>
+  </div>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var buildUrl = "Build";
+    var loaderUrl = buildUrl + "/SonicEXE.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/SonicEXE.data",
+      frameworkUrl: buildUrl + "/SonicEXE.framework.js",
+      codeUrl: buildUrl + "/SonicEXE.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Sonic.EXE",
+      productVersion: "1.0",
+    };
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => { createUnityInstance(canvas, config).catch(console.error); };
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
