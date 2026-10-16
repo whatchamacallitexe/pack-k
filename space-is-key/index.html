@@ -1,57 +1,21 @@
 <!-- Ultimate Game Stash file-->
-<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Space is Key</title>
-  <style>
-    html, body {
-      margin: 0; padding: 0; background: black; overflow: hidden; height: 100%; width: 100%;
-    }
-    #flash-container {
-      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-      background: black; overflow: hidden;
-    }
-    ruffle-player { width: 100%; height: 100%; background: black; display: block; }
-  </style>
-  <script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Space is Key</title>
+<style>html,body{margin:0;padding:0;background:#000;overflow:hidden;height:100%;width:100%}#c{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}ruffle-player{width:100%;height:100%;display:block}</style>
+<script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js"></script>
 </head>
 <body>
-  <div id="flash-container"></div>
-  <script>
-    const SWF_URL = "https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bb8b833e6462a2b0e42018295f8df9abbe9ae3c3/space-is-key-10912f2f2.swf";
-    const container = document.getElementById("flash-container");
-    function resizeGame() {
-      const windowWidth = window.innerWidth;
-      const windowHeight = window.innerHeight;
-      const aspectRatio = 4 / 3;
-      let width = Math.floor(windowWidth);
-      let height = Math.floor(width / aspectRatio);
-      if (height > windowHeight) {
-        height = Math.floor(windowHeight);
-        width = Math.floor(height * aspectRatio);
-      }
-      container.style.width = width + "px";
-      container.style.height = height + "px";
-    }
-    window.addEventListener("resize", resizeGame);
-    window.addEventListener("DOMContentLoaded", () => {
-      resizeGame();
-      const ruffle = window.RufflePlayer && window.RufflePlayer.newest && window.RufflePlayer.newest();
-      if (ruffle && container) {
-        const player = ruffle.createPlayer();
-        player.style.width = "100%";
-        player.style.height = "100%";
-        player.style.background = "black";
-        container.appendChild(player);
-        player.load(SWF_URL);
-      } else {
-        container.textContent = "Ruffle failed to load.";
-      }
-    });
-  </script>
+<div id="c"></div>
+<script>
+const SWF="https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bb8b833e6462a2b0e42018295f8df9abbe9ae3c3/space-is-key-10912f2f2.swf";
+const c=document.getElementById("c");
+function resize(){let w=innerWidth,h=Math.floor(w*3/4);if(h>innerHeight){h=innerHeight;w=Math.floor(h*4/3)}c.style.width=w+"px";c.style.height=h+"px"}
+addEventListener("resize",resize);
+addEventListener("DOMContentLoaded",()=>{resize();const r=RufflePlayer&&RufflePlayer.newest&&RufflePlayer.newest();if(!r){c.textContent="Ruffle failed";return}const p=r.createPlayer();p.style.width=p.style.height="100%";c.appendChild(p);p.load(SWF)});
+</script>
 </body>
 </html>

@@ -2,34 +2,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Sift Heads Cartels Act 1</title>
-  <style>
-    html, body { margin: 0; padding: 0; background: black; overflow: hidden; height: 100%; width: 100%; }
-    #flash-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: black; }
-    ruffle-player { width: 100%; height: 100%; display: block; background: black; }
-  </style>
-  <script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Sift Heads</title>
+<style>html,body{margin:0;padding:0;background:#000;overflow:hidden;height:100%;width:100%}#c{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}ruffle-player{width:100%;height:100%;display:block}</style>
+<script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js"></script>
 </head>
 <body>
-  <div id="flash-container"></div>
-  <script>
-    const SWF_URL = "https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_1.swf";
-    const container = document.getElementById("flash-container");
-    function resize() {
-      let w = window.innerWidth, h = Math.floor(w * 3/4);
-      if (h > window.innerHeight) { h = window.innerHeight; w = Math.floor(h * 4/3); }
-      container.style.width = w + "px"; container.style.height = h + "px";
-    }
-    window.addEventListener("resize", resize);
-    window.addEventListener("DOMContentLoaded", () => {
-      resize();
-      const r = window.RufflePlayer && window.RufflePlayer.newest && window.RufflePlayer.newest();
-      if (!r) { container.textContent = "Ruffle failed"; return; }
-      const p = r.createPlayer(); p.style.width = p.style.height = "100%";
-      container.appendChild(p); p.load(SWF_URL);
-    });
-  </script>
+<div id="c"></div>
+<script>
+const SWF="https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_1.swf";
+const c=document.getElementById("c");
+function resize(){let w=innerWidth,h=Math.floor(w*3/4);if(h>innerHeight){h=innerHeight;w=Math.floor(h*4/3)}c.style.width=w+"px";c.style.height=h+"px"}
+addEventListener("resize",resize);
+addEventListener("DOMContentLoaded",()=>{resize();const r=RufflePlayer&&RufflePlayer.newest&&RufflePlayer.newest();if(!r){c.textContent="Ruffle failed";return}const p=r.createPlayer();p.style.width=p.style.height="100%";c.appendChild(p);p.load(SWF)});
+</script>
 </body>
 </html>
