@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Ultimate Game Stash file--> 
+<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+<html lang="en">
+<base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@f3c53772170e859bbd9af0cd42e4a2e2701a20af/switchblade/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>Switchblade</title>
+  <style>
+    html, body, #canvas { margin: 0; padding: 0; border: 0; }
+    body { color: white; background-color: black; overflow: hidden; touch-action: none; }
+    #canvas { display: block; }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <script src="index.js"></script>
+  <script>
+    if (typeof Engine !== 'undefined') {
+      const engine = new Engine({"args":[],"canvasResizePolicy":2,"executable":"index","focusCanvas":true});
+      engine.startGame();
+    }
+  </script>
+</body>
+</html>
