@@ -1,0 +1,11 @@
+<!-- Ultimate Game Stash file-->
+<base href="https://cdn.jsdelivr.net/gh/bubbls/subwaysurfersmerge/">
+<html><head><meta charset="utf-8"/><title>Subway Surfers: Buenos Aires</title><script src="4399.js"></script>
+<script>
+window.config={loader:"unity",debug:false,maxRatio:16/9,minRatio:9/16,title:"Subway Surfers: Buenos Aires",unityVersion:"2019.2.0f1",unityWebglBuildUrl:"BuenosAires_1.json",fileSize:30,cachedDecompressedFileSizes:{}};
+window.mergedBlobUrls={};window.assetsReady=false;
+async function mergeSplitFile(f,n=2){const urls=Array.from({length:n},(_,i)=>f+".part"+(i+1));try{const rs=await Promise.all(urls.map(u=>fetch(u)));if(rs.some(r=>!r.ok))return null;const ps=await Promise.all(rs.map(r=>r.arrayBuffer()));return URL.createObjectURL(new Blob(ps,{type:"application/octet-stream"}));}catch(e){return null;}}
+function setupXHRInterceptor(){if(window.xhrInterceptorInstalled)return;const o=XMLHttpRequest.prototype.open,s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u,...a){let f=u;for(const[n,b]of Object.entries(window.mergedBlobUrls)){if(u.includes(n)){f=b;break;}}return o.call(this,m,f,...a);};XMLHttpRequest.prototype.send=function(...a){const x=this;if(!window.assetsReady){const c=setInterval(()=>{if(window.assetsReady){clearInterval(c);s.apply(x,a);}},50);return;}return s.apply(this,a);};window.xhrInterceptorInstalled=true;}
+async function prepareGameAssets(){try{window.assetsReady=false;window.mergedBlobUrls={};setupXHRInterceptor();for(const f of["BuenosAires_1.data.unityweb","BuenosAires_1.wasm.code.unityweb"]){const b=await mergeSplitFile(f,2);if(b)window.mergedBlobUrls[f]=b;}window.assetsReady=true;}catch(e){window.assetsReady=true;}}
+prepareGameAssets();
+</script></head><body><script src="master-loader.js"></script></body></html>

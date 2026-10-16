@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!-- Ultimate Game Stash file-->
+<head>
+  <meta charset="utf-8">
+  <title>Stick Slasher</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/stickslasher/TemplateData/style.css">
+</head>
+<body style="margin:0;overflow:hidden;background:#000">
+  <div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas" width=960 height=600></canvas>
+    <div id="unity-loading-bar">
+      <div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div>
+    </div>
+  </div>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var loadingBar = document.querySelector("#unity-loading-bar");
+    var progressBarFull = document.querySelector("#unity-progress-bar-full");
+    var buildUrl = "https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/stickslasher/Build";
+    var loaderUrl = buildUrl + "/StickWeb.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/StickWeb.data",
+      frameworkUrl: buildUrl + "/StickWeb.framework.js",
+      codeUrl: buildUrl + "/StickWeb.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "Beruke Games",
+      productName: "Stick Slasher",
+      productVersion: "1.0",
+    };
+    loadingBar.style.display = "block";
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => {
+      createUnityInstance(canvas, config, (p) => {
+        progressBarFull.style.width = 100 * p + "%";
+      }).then(() => { loadingBar.style.display = "none"; }).catch(console.error);
+    };
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
