@@ -1,2 +1,101 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>Smash Karts</title><style>html,body{margin:0;height:100%;background:#000;overflow:hidden}iframe{border:0;width:100%;height:100%;position:fixed;inset:0}</style></head><body><iframe src="https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsmashkartsworking.html" allow="fullscreen; gamepad; autoplay" allowfullscreen></iframe></body></html>
+<html>
+<base href="https://cdn.jsdelivr.net/gh/Pok12d/ta@main/sma/">
+<script src="jszip.js"></script>
+<body>
+<h1 id="loadingg">Loading...</h1>
+<script>
+async function fetchAndCombineZip(binUrls) {
+  const responses = await Promise.all(binUrls.map(url => fetch(url)));
+  const buffers = await Promise.all(responses.map(res => res.arrayBuffer()));
+  let totalLength = buffers.reduce((acc, buf) => acc + buf.byteLength, 0);
+  let combined = new Uint8Array(totalLength);
+  let offset = 0;
+  for (let buf of buffers) {
+    combined.set(new Uint8Array(buf), offset);
+    offset += buf.byteLength;
+  }
+  return combined;
+}
+
+async function unzipWebpFromExternalBins(binUrls) {
+  const blobUrls = {};
+  const bytes = await fetchAndCombineZip(binUrls);
+  const zip = await JSZip.loadAsync(bytes);
+  for (const [filename, file] of Object.entries(zip.files)) {
+    if (!file.dir) {
+      let mime = '';
+      if (filename.endsWith('.js') || filename.endsWith('.mjs')) mime = 'text/javascript';
+      else if (filename.endsWith('.css')) mime = 'text/css';
+      else if (filename.endsWith('.html')) mime = 'text/html';
+      else if (filename.includes('250100c98afece1d27bb09b3a3d618ca')) mime = 'application/wasm';
+      else if (filename.includes('ed690d1402dd39fcf7abb15b99effdea')) mime = 'application/javascript';
+      else if (filename.endsWith('.png')) mime = 'image/png';
+      else if (filename.endsWith('.jpg') || filename.endsWith('.jpeg')) mime = 'image/jpeg';
+      else if (filename.endsWith('.wasm')) mime = 'application/wasm';
+      else if (filename.endsWith('.data.unityweb')) mime = 'application/octet-stream';
+      else if (filename.endsWith('.asm.code.unityweb')) mime = 'application/javascript';
+      else if (filename.endsWith('.asm.memory.unityweb')) mime = 'application/octet-stream';
+      else if (filename.endsWith('.asm.framework.unityweb')) mime = 'application/javascript';
+      if (filename.endsWith('.asm.framework.unityweb')) mime = 'application/javascript';
+      if (filename.endsWith('.asm.code.unityweb')) mime = 'application/javascript';
+      if (filename.endsWith('.asm.memory.unityweb')) mime = 'application/octet-stream';
+      const rawBlob = await file.async('blob');
+      const blob = mime ? new Blob([rawBlob], { type: mime }) : rawBlob;
+      blobUrls[filename] = URL.createObjectURL(blob);
+    }
+  }
+  return blobUrls;
+}
+
+let blobUrlss = '';
+let binParts = ['part_1.bin', 'part_2.bin'];
+
+unzipWebpFromExternalBins(binParts).then(blobUrls => {
+  document.getElementById('loadingg').remove();
+  blobUrlss = blobUrls;
+
+  function rewriteURL(original) {
+    if (original.includes('prod/') && original.includes('common-v'))
+      return 'https://cdn.jsdelivr.net/gh/Pok12d/ta@main/sma/gamesettings/prod/360/common-v4.json';
+    else if (original.startsWith('https://smashkarts.io'))
+      return 'https://cdn.jsdelivr.net/gh/Pok12d/ta@main/sma' + original.split('https://smashkarts.io')[1];
+    else if (original.startsWith('https://smashkartsgc.b-cdn.net'))
+      return 'https://cdn.jsdelivr.net/gh/Pok12d/ta@main/sma' + original.split('https://smashkartsgc.b-cdn.net')[1];
+    var trimmed = original.split('/').pop();
+    if (trimmed.includes('?')) trimmed = trimmed.split('?')[0];
+    return blobUrlss[trimmed] || original;
+  }
+
+  const originalFetch = window.fetch;
+  window.fetch = function(resource, init) {
+    if (typeof resource === 'string') resource = rewriteURL(resource);
+    else if (resource instanceof Request) resource = new Request(rewriteURL(resource.url), resource);
+    return originalFetch.call(this, resource, init);
+  };
+
+  const originalOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url, ...rest) {
+    return originalOpen.call(this, method, rewriteURL(url), ...rest);
+  };
+
+  // Load main game page from extracted zip if present, else load index from CDN
+  const indexKey = Object.keys(blobUrls).find(k => k.endsWith('.html') || k === 'index.html');
+  if (indexKey) {
+    fetch(blobUrls[indexKey]).then(r => r.text()).then(html => {
+      document.open();
+      document.write(html);
+      document.close();
+    });
+  } else {
+    // Fallback: inject iframe to CDN path
+    const s = document.createElement('script');
+    s.src = rewriteURL('scripts/main.js') || 'scripts/main.js';
+    document.body.appendChild(s);
+  }
+}).catch(err => {
+  document.getElementById('loadingg').textContent = 'Error: ' + err;
+  console.error(err);
+});
+</script>
+</body>
+</html>
