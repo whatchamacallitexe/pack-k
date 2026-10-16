@@ -1,2 +1,44 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>Soccer Bros</title><style>html,body{margin:0;height:100%;background:#000;overflow:hidden}iframe{border:0;width:100%;height:100%;position:fixed;inset:0}</style></head><body><iframe src="https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsoccerbros.html" allow="fullscreen; gamepad; autoplay" allowfullscreen></iframe></body></html>
+<!-- Ultimate Game Stash file-->
+<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@74d476b72d23ea1cebc9af41306baab442fe632c/soccer%20bros/">
+  <title>Soccer Bros</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <style>
+    html, body {
+      margin: 0; padding: 0;
+      height: 100%; width: 100%;
+      background: #000000;
+      overflow: hidden;
+    }
+    #openfl-content {
+      background: #000000;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <script type="text/javascript" src="./SoccerBros.js"></script>
+  <script>
+    window.addEventListener("touchmove", function(event) {
+      event.preventDefault();
+    }, { capture: false, passive: false });
+    window.addEventListener('keydown', function(e) {
+      if ((e.keyCode == 32 || e.keyCode == 38 || e.keyCode == 40) && e.target == document.body) {
+        e.preventDefault();
+      }
+    });
+  </script>
+</head>
+<body>
+  <div id="openfl-content" style="width: 100%; height: 100%;">
+    <script type="text/javascript">
+      lime.embed("SoccerBros", "openfl-content", 0, 0, {
+        parameters: {}
+      });
+    </script>
+  </div>
+</body>
+</html>
