@@ -1,27 +1,31 @@
 <!-- Ultimate Game Stash file-->
-<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
-
-<!doctype html>
-<html>
-  <head>
-    <base href="https://cdn.jsdelivr.net/gh/bubblfan/google-class@cd06df26d3c4d9f73c8151fc13f7b2dc27f3adda/stickman-hook/" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <title>Stickman Hook</title>
-    <style>
-      html, body {
-        position: absolute;
-        top: 0; left: 0;
-        margin: 0; padding: 0; border: 0;
-        overflow: hidden;
-        width: 100vw; height: 100vh;
-        background: #000;
-      }
-      canvas { width: 100%; }
-    </style>
-    <script src="poki3.js"></script>
-  </head>
-  <body>
-    <script src="bundle.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <base href="https://cdn.jsdelivr.net/gh/bubblfan/google-class@cd06df26d3c4d9f73c8151fc13f7b2dc27f3adda/stickman-hook/">
+  <meta charset="utf-8">
+  <title>Stickman Hook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;overflow:hidden;background:#000">
+  <canvas id="unity-canvas" style="width:100vw;height:100vh"></canvas>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var buildUrl = "Build";
+    var loaderUrl = buildUrl + "/WebGL.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/WebGL.data",
+      frameworkUrl: buildUrl + "/WebGL.framework.js",
+      codeUrl: buildUrl + "/WebGL.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Stickman Hook",
+      productVersion: "1.0",
+    };
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => { createUnityInstance(canvas, config).catch(console.error); };
+    document.body.appendChild(script);
+  </script>
+</body>
 </html>
