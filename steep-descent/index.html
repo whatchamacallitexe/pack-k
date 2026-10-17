@@ -1,0 +1,29 @@
+<!-- Ultimate Game Stash file-->
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Steep Descent</title>
+</head>
+<body style="margin:0;overflow:hidden;background:#000">
+  <canvas id="unity-canvas" style="width:100vw;height:100vh"></canvas>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var buildUrl = "https://cdn.jsdelivr.net/gh/z799gs/3z3z3@main/Build";
+    var loaderUrl = buildUrl + "/SteepDescent.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/08ed5de1ab67a9c2ae11d2f97f2780e8.data.unityweb",
+      frameworkUrl: buildUrl + "/56cfcbc5a9b96769504612ff8878b999.js.unityweb",
+      codeUrl: buildUrl + "/5f14ad0fdcb130010a9ca539b8acc937.wasm.unityweb",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Steep Descent",
+      productVersion: "1.0",
+    };
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => { createUnityInstance(canvas, config).catch(console.error); };
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>

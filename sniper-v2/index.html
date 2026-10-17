@@ -1,2 +1,30 @@
+<!-- Ultimate Game Stash file-->
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>Sniper v2</title><style>html,body{margin:0;height:100%;background:#000;overflow:hidden}iframe{border:0;width:100%;height:100%;position:fixed;inset:0}</style></head><body><iframe src="https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsniperv2.html" allow="fullscreen; gamepad; autoplay" allowfullscreen></iframe></body></html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Sniper v2</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tty67hlt6jf6/c2@main/TemplateData/css/style.css">
+</head>
+<body style="margin:0;overflow:hidden;background:#000">
+  <canvas id="unity-canvas" style="width:100vw;height:100vh"></canvas>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+    var buildUrl = "https://cdn.jsdelivr.net/gh/tty67hlt6jf6/c2@main/Build";
+    var loaderUrl = buildUrl + "/Sniper_Gun_Shooting.loader.js";
+    var config = {
+      dataUrl: buildUrl + "/Sniper_Gun_Shooting.data",
+      frameworkUrl: buildUrl + "/Sniper_Gun_Shooting.framework.js",
+      codeUrl: buildUrl + "/Sniper_Gun_Shooting.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "DefaultCompany",
+      productName: "Sniper v2",
+      productVersion: "1.0",
+    };
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => { createUnityInstance(canvas, config).catch(console.error); };
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
