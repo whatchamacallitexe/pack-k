@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>A Koopa's Revenge</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/74m4h4/74m4h4-Assets@5cb61b353cff0365c082c9309e82bb561c027201/Run%202/waflash/waflash-style.css" type="text/css">
+	<script>
+		var gameConfig = {swfUrl: "https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@0cd0ee738f343e9d9e275549f176ddee1da31302/Koopa1.swf" }
+	</script>
+</head>
+<body>
+	<div id="waflashContainer"> <canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+		<div id="waflashStatus" style="display: none;">Playing...</div>
+		<script type="module" crossorigin="anonymous">
+			import {createWaflash} from 'https://cdn.jsdelivr.net/gh/zhit73/wafedit@badeade9f58a3987043cdcc12c863c0b2eb3de01/wasm/waflash-player.min.js'; createWaflash(gameConfig.swfUrl, window.wafOptions || {});
+		</script>
+	</div>
+</body>
+</html>
