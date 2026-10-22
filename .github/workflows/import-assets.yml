@@ -1,0 +1,106 @@
+name: Import game assets (cloud only)
+
+# Runs on GitHub's machines — you do NOT download anything.
+# Actions → Import game assets → Run workflow
+on:
+  workflow_dispatch:
+    inputs:
+      source_repo:
+        description: "Source repo under whatchamacallitexe"
+        required: true
+        type: choice
+        options:
+          - UGS-Assets
+          - clover-pit
+          - ugss
+        default: UGS-Assets
+      source_path:
+        description: "Folder path inside source repo (e.g. bullet-force-multiplayer or Build)"
+        required: true
+        default: "bullet-force-multiplayer"
+      dest_path:
+        description: "Folder name inside this pack repo"
+        required: true
+        default: "bulletforce"
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout pack repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sparse-clone source folder (cloud)
+        env:
+          SRC_REPO: ${{ inputs.source_repo }}
+          SRC_PATH: ${{ inputs.source_path }}
+          DEST: ${{ inputs.dest_path }}
+        run: |
+          set -euo pipefail
+          echo "Importing ${SRC_REPO}/${SRC_PATH} → ${DEST}"
+
+          # Partial clone on GitHub runner — never hits your PC
+          git clone --depth 1 --filter=blob:none --sparse \
+            "https://github.com/whatchamacallitexe/${SRC_REPO}.git" /tmp/src
+
+          cd /tmp/src
+          git sparse-checkout set "${SRC_PATH}"
+
+          if [ ! -d "${SRC_PATH}" ]; then
+            echo "ERROR: path not found: ${SRC_PATH}"
+            echo "Top-level entries:"
+            ls -la
+            exit 1
+          fi
+
+          SIZE=$(du -sh "${SRC_PATH}" | cut -f1)
+          echo "Folder size on runner: ${SIZE}"
+
+          mkdir -p "${GITHUB_WORKSPACE}/${DEST}"
+          # Copy contents into dest (replace if exists)
+          rm -rf "${GITHUB_WORKSPACE}/${DEST}"
+          mkdir -p "${GITHUB_WORKSPACE}/${DEST}"
+          cp -a "${SRC_PATH}/." "${GITHUB_WORKSPACE}/${DEST}/"
+
+          # Drop huge .git from nested if any
+          rm -rf "${GITHUB_WORKSPACE}/${DEST}/.git"
+
+          echo "Copied files:"
+          find "${GITHUB_WORKSPACE}/${DEST}" -type f | head -50
+          echo "...(truncated if long)..."
+          find "${GITHUB_WORKSPACE}/${DEST}" -type f | wc -l
+
+      - name: Commit and push into pack
+        env:
+          DEST: ${{ inputs.dest_path }}
+          SRC_REPO: ${{ inputs.source_repo }}
+          SRC_PATH: ${{ inputs.source_path }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A "${DEST}"
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit"
+            exit 0
+          fi
+
+          git commit -m "Import ${SRC_REPO}/${SRC_PATH} → ${DEST} (cloud Actions)"
+
+          # Large pushes can need bigger http buffer
+          git config http.postBuffer 524288000
+          git push origin HEAD
+
+      - name: Summary
+        env:
+          DEST: ${{ inputs.dest_path }}
+        run: |
+          echo "### Import complete" >> "$GITHUB_STEP_SUMMARY"
+          echo "Assets are in \\'${DEST}/\\' on this pack repo." >> "$GITHUB_STEP_SUMMARY"
+          echo "No files were downloaded to your computer." >> "$GITHUB_STEP_SUMMARY"
