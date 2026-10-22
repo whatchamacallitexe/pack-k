@@ -1,6 +1,5 @@
 name: Import game assets (cloud only)
 
-# AI or you can trigger this — runs only on GitHub servers (free for public repos).
 on:
   workflow_dispatch:
     inputs:
@@ -31,6 +30,8 @@ jobs:
     steps:
       - name: Checkout pack repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Clone source on runner (not your PC)
         env:
@@ -62,7 +63,6 @@ jobs:
 
           rm -rf "${GITHUB_WORKSPACE}/${DEST}"
           mkdir -p "${GITHUB_WORKSPACE}/${DEST}"
-          # If SRC is a directory, copy contents; if file, copy file
           if [ -d "${SRC_DIR}" ]; then
             cp -a "${SRC_DIR}/." "${GITHUB_WORKSPACE}/${DEST}/"
           else
@@ -73,7 +73,7 @@ jobs:
           echo "File count: $(find "${GITHUB_WORKSPACE}/${DEST}" -type f | wc -l)"
           find "${GITHUB_WORKSPACE}/${DEST}" -type f | head -40
 
-      - name: Commit and push
+      - name: Commit and push (rebase if needed)
         env:
           DEST: ${{ inputs.dest_path }}
           SRC_REPO: ${{ inputs.source_repo }}
@@ -89,11 +89,16 @@ jobs:
           fi
           git commit -m "Import ${SRC_REPO}/${SRC_PATH} → ${DEST} (cloud)"
           git config http.postBuffer 524288000
-          git push origin HEAD
 
-      - name: Summary
-        env:
-          DEST: ${{ inputs.dest_path }}
-        run: |
-          echo "### Done: ${DEST}" >> "$GITHUB_STEP_SUMMARY"
-          echo "No download on your computer. Free public Actions minutes." >> "$GITHUB_STEP_SUMMARY"
+          # Avoid race when two imports run at once
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            if git push origin HEAD; then
+              echo "Push OK"
+              exit 0
+            fi
+            echo "Push rejected, retry $i…"
+            sleep 5
+          done
+          echo "Push failed after retries"
+          exit 1
