@@ -1,7 +1,6 @@
 name: Import game assets (cloud only)
 
-# Runs on GitHub's machines — you do NOT download anything.
-# Actions → Import game assets → Run workflow
+# AI or you can trigger this — runs only on GitHub servers (free for public repos).
 on:
   workflow_dispatch:
     inputs:
@@ -15,13 +14,13 @@ on:
           - ugss
         default: UGS-Assets
       source_path:
-        description: "Folder path inside source repo (e.g. bullet-force-multiplayer or Build)"
+        description: "Folder in source repo, or FULL for entire repo"
         required: true
-        default: "bullet-force-multiplayer"
+        default: "superhot"
       dest_path:
-        description: "Folder name inside this pack repo"
+        description: "Folder name inside this pack"
         required: true
-        default: "bulletforce"
+        default: "superhot"
 
 jobs:
   import:
@@ -32,10 +31,8 @@ jobs:
     steps:
       - name: Checkout pack repo
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Sparse-clone source folder (cloud)
+      - name: Clone source on runner (not your PC)
         env:
           SRC_REPO: ${{ inputs.source_repo }}
           SRC_PATH: ${{ inputs.source_path }}
@@ -44,38 +41,39 @@ jobs:
           set -euo pipefail
           echo "Importing ${SRC_REPO}/${SRC_PATH} → ${DEST}"
 
-          # Partial clone on GitHub runner — never hits your PC
-          git clone --depth 1 --filter=blob:none --sparse \
-            "https://github.com/whatchamacallitexe/${SRC_REPO}.git" /tmp/src
-
-          cd /tmp/src
-          git sparse-checkout set "${SRC_PATH}"
-
-          if [ ! -d "${SRC_PATH}" ]; then
-            echo "ERROR: path not found: ${SRC_PATH}"
-            echo "Top-level entries:"
-            ls -la
-            exit 1
+          if [ "${SRC_PATH}" = "FULL" ]; then
+            git clone --depth 1 \
+              "https://github.com/whatchamacallitexe/${SRC_REPO}.git" /tmp/src
+            SRC_DIR=/tmp/src
+          else
+            git clone --depth 1 --filter=blob:none --sparse \
+              "https://github.com/whatchamacallitexe/${SRC_REPO}.git" /tmp/src
+            cd /tmp/src
+            git sparse-checkout set "${SRC_PATH}"
+            if [ ! -e "${SRC_PATH}" ]; then
+              echo "ERROR: path not found: ${SRC_PATH}"
+              ls -la
+              exit 1
+            fi
+            SRC_DIR="/tmp/src/${SRC_PATH}"
           fi
 
-          SIZE=$(du -sh "${SRC_PATH}" | cut -f1)
-          echo "Folder size on runner: ${SIZE}"
+          echo "Size: $(du -sh "${SRC_DIR}" | cut -f1)"
 
-          mkdir -p "${GITHUB_WORKSPACE}/${DEST}"
-          # Copy contents into dest (replace if exists)
           rm -rf "${GITHUB_WORKSPACE}/${DEST}"
           mkdir -p "${GITHUB_WORKSPACE}/${DEST}"
-          cp -a "${SRC_PATH}/." "${GITHUB_WORKSPACE}/${DEST}/"
-
-          # Drop huge .git from nested if any
+          # If SRC is a directory, copy contents; if file, copy file
+          if [ -d "${SRC_DIR}" ]; then
+            cp -a "${SRC_DIR}/." "${GITHUB_WORKSPACE}/${DEST}/"
+          else
+            cp -a "${SRC_DIR}" "${GITHUB_WORKSPACE}/${DEST}/"
+          fi
           rm -rf "${GITHUB_WORKSPACE}/${DEST}/.git"
 
-          echo "Copied files:"
-          find "${GITHUB_WORKSPACE}/${DEST}" -type f | head -50
-          echo "...(truncated if long)..."
-          find "${GITHUB_WORKSPACE}/${DEST}" -type f | wc -l
+          echo "File count: $(find "${GITHUB_WORKSPACE}/${DEST}" -type f | wc -l)"
+          find "${GITHUB_WORKSPACE}/${DEST}" -type f | head -40
 
-      - name: Commit and push into pack
+      - name: Commit and push
         env:
           DEST: ${{ inputs.dest_path }}
           SRC_REPO: ${{ inputs.source_repo }}
@@ -84,16 +82,12 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add -A "${DEST}"
           if git diff --cached --quiet; then
-            echo "Nothing new to commit"
+            echo "Nothing to commit"
             exit 0
           fi
-
-          git commit -m "Import ${SRC_REPO}/${SRC_PATH} → ${DEST} (cloud Actions)"
-
-          # Large pushes can need bigger http buffer
+          git commit -m "Import ${SRC_REPO}/${SRC_PATH} → ${DEST} (cloud)"
           git config http.postBuffer 524288000
           git push origin HEAD
 
@@ -101,6 +95,5 @@ jobs:
         env:
           DEST: ${{ inputs.dest_path }}
         run: |
-          echo "### Import complete" >> "$GITHUB_STEP_SUMMARY"
-          echo "Assets are in \\'${DEST}/\\' on this pack repo." >> "$GITHUB_STEP_SUMMARY"
-          echo "No files were downloaded to your computer." >> "$GITHUB_STEP_SUMMARY"
+          echo "### Done: ${DEST}" >> "$GITHUB_STEP_SUMMARY"
+          echo "No download on your computer. Free public Actions minutes." >> "$GITHUB_STEP_SUMMARY"
