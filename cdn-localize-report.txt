@@ -1,468 +1,167 @@
-FILE a-dark-room: https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js -> assets/cdn/65e9c3e1-jquery.min.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/lib/jquery.color-2.1.2.min.js -> assets/cdn/3ef09d1d-jquery.color-2.1.2.min.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/lib/jquery.event.move.js -> assets/cdn/e2555aec-jquery.event.move.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/lib/jquery.event.swipe.js -> assets/cdn/79fa3d9f-jquery.event.swipe.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/lib/base64.js -> assets/cdn/29b08af0-base64.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/lib/translate.js -> assets/cdn/662fb9d4-translate.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/lang/langs.js -> assets/cdn/a1b995eb-langs.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/Button.js -> assets/cdn/bf425b38-Button.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/audioLibrary.js -> assets/cdn/b24be71a-audioLibrary.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/audio.js -> assets/cdn/d7b0974a-audio.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/engine.js -> assets/cdn/af49bbdb-engine.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/state_manager.js -> assets/cdn/66c4f5bd-state_manager.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/header.js -> assets/cdn/44dbff07-header.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/notifications.js -> assets/cdn/66244e52-notifications.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/events.js -> assets/cdn/27a8560f-events.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/room.js -> assets/cdn/fb8496ff-room.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/outside.js -> assets/cdn/44e1ece5-outside.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/world.js -> assets/cdn/fbff3081-world.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/path.js -> assets/cdn/962665b4-path.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/ship.js -> assets/cdn/f7a52497-ship.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/space.js -> assets/cdn/b307b486-space.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/fabricator.js -> assets/cdn/3282a55f-fabricator.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/prestige.js -> assets/cdn/267f3054-prestige.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/scoring.js -> assets/cdn/ce80be04-scoring.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/events/global.js -> assets/cdn/3ff0ee05-global.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/events/room.js -> assets/cdn/c8309522-room.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/events/outside.js -> assets/cdn/30a7258a-outside.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/events/encounters.js -> assets/cdn/d90932f4-encounters.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/events/setpieces.js -> assets/cdn/3f601b30-setpieces.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/events/marketing.js -> assets/cdn/02e3220a-marketing.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/events/executioner.js -> assets/cdn/2d5818a2-executioner.js
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/css/main.css -> assets/cdn/40009f8e-main.css
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/css/room.css -> assets/cdn/d71b4f88-room.css
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/css/outside.css -> assets/cdn/71646582-outside.css
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/css/path.css -> assets/cdn/17caf084-path.css
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/css/world.css -> assets/cdn/ac2c83c9-world.css
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/css/ship.css -> assets/cdn/9bf8c798-ship.css
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/css/space.css -> assets/cdn/0aa2301b-space.css
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/css/fabricator.css -> assets/cdn/48bdddde-fabricator.css
-FILE a-dark-room: https://cdn.jsdelivr.net/gh/doublespeakgames/adarkroom@e1c67e5f6fd3b06314c2e12e75994c56cfe63e2d/script/localization.js -> assets/cdn/e1fe4887-localization.js
-BASE OK bubbls/UGS-Assets@027a7fc4b20820dc401547a74cf4f2ee875cd3e2/a day in the office -> a-day-in-the-office
-BASE REWRITE a-day-in-the-office
-FILE abandoned: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE abandoned: https://cdn.jsdelivr.net/gh/jackilyna/codemotion2015@6ed8c2fb61182b360a852e0417cc2d6370d5164e/flg/abandoned.swf -> assets/cdn/3ea0a5b8-abandoned.swf
-FILE abandoned3: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-EMU OK genizy/emu@master cores=fbneo,fceumm,gambatte,genesis_plus_gx,mednafen_psx,mgba,mupen64plus_next,snes9x,stella2014
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@e27ad66eda838f123bfb1aff7958bbda703283f5/Phoenix%20Wright%20-%20Ace%20Attorney%20(USA)/Phoenix%20Wright%20-%20Ace%20Attorney%20(USA).nds: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@f8f6dcef21a8c9dd51e8e94fe6c61c09a23da4b9/ace%20combat%202/Ace%20Combat%202%20(USA).chd: curl: (22) The requested URL returned error: 404
 
-FILE ace-combat-2: https://cdn.jsdelivr.net/gh/Abdess/retroarch_system@5f96368f6dbad5851cdb16a5041fefec4bdcd305/Sony%20-%20PlayStation/scph5501.bin -> ../_shared/7e5c01d10ed2-scph5501.bin
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@6ae566604fe7593c3cd8e4fbb5b595b284b0537d/ace%20combat%203/Ace%20Combat%203%20-%20Electrosphere%20(USA).chd: curl: (22) The requested URL returned error: 404
 
-FILE ace-combat-3: https://cdn.jsdelivr.net/gh/Abdess/retroarch_system@5f96368f6dbad5851cdb16a5041fefec4bdcd305/Sony%20-%20PlayStation/scph5501.bin -> ../_shared/7e5c01d10ed2-scph5501.bin
-FILE ace-gangster-taxi: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE ace-gangster-taxi: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@b0cfd832225284bd1c0b7ebf1a58a2d12c7c4004/ace_gangster_taxi.swf -> assets/cdn/3a3c038c-ace_gangster_taxi.swf
-FILE achievement-unlocked: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE achievement-unlocked: https://cdn.jsdelivr.net/gh/asianmemeboi/AAA-Fun-World@2f45ea1aca0db7f1963e694bc2034d9ea885585b/achievement-unlocked.swf -> assets/cdn/63aff929-achievement-unlocked.swf
-FILE achievement-unlocked-2: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE achievement-unlocked-2: https://cdn.jsdelivr.net/gh/asianmemeboi/AAA-Fun-World@ab575a02be519d81b04e1141d0de42da4eba0997/achievement-unlocked-2.swf -> assets/cdn/229b3ff1-achievement-unlocked-2.swf
-FILE achievement-unlocked-3: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE achievement-unlocked-3: https://cdn.jsdelivr.net/gh/asianmemeboi/AAA-Fun-World@6ecabf5eced5e166e4cf7ed9c45510512be15a75/achievement-unlocked-3.swf -> assets/cdn/4e7d5052-achievement-unlocked-3.swf
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE achilles: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE achilles: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@636ec08b40ae09e9cf3ec6021128fc81cd2c6557/achilles%20(1).swf -> ../_shared/9f25ece78ab8-achilles_1_.swf
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE achilles-2: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE achilles-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@a08815dfb9bfa3a29bfc6449bbe94adb9e46d8b5/achilles2.swf -> ../_shared/a4c624e99229-achilles2.swf
-FILE adofai: https://cdn.jsdelivr.net/gh/paigerodeghero/academicwebsite@897c910c65e6c68b04c44a6b6eba0b99d0f2f2cf/TemplateData/style.css -> assets/cdn/5c9e4317-style.css
-FILE adofai: https://cdn.jsdelivr.net/gh/paigerodeghero/academicwebsite@897c910c65e6c68b04c44a6b6eba0b99d0f2f2cf/TemplateData/UnityProgress.js -> assets/cdn/fac31396-UnityProgress.js
-FILE adofai: https://cdn.jsdelivr.net/gh/udbsite/adofai@f170efcb1b532312817e69f26ce3f84c99940238/Build/UnityLoader.js -> assets/cdn/4e330cda-UnityLoader.js
-FILE adofai: https://cdn.jsdelivr.net/gh/udbsite/adofai@f170efcb1b532312817e69f26ce3f84c99940238/Build/adofaiii4.json -> assets/cdn/12ba28b0-adofaiii4.json
-FILE advance-wars: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
-FILE advance-wars: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@fb43861e41bb8ca93b868231f3d135c3aafa72e3/Advance%20Wars%20(USA).zip -> assets/cdn/eb802d5f-Advance_Wars_USA_.zip
-FILE advance-wars-2: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
-FILE advance-wars-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@fb43861e41bb8ca93b868231f3d135c3aafa72e3/Advance%20Wars%202%20-%20Black%20Hole%20Rising%20(USA).zip -> assets/cdn/db7928d4-Advance_Wars_2_-_Black_Hole_Rising_USA_.zip
-BASE OK Stinkalistic/UGS@main/MISC/adventneon -> advent-neon
-BASE REWRITE advent-neon
-FILE agario-lite: https://cdn.jsdelivr.net/gh/234sd4w5w45wers5tr-645758574456456/436874@80f8732e80020f5e1985fc807267ed0637e230a7/jquery-latest.min.js -> assets/cdn/8899c2e2-jquery-latest.min.js
-FILE agario-lite: https://cdn.jsdelivr.net/gh/234sd4w5w45wers5tr-645758574456456/436874@80f8732e80020f5e1985fc807267ed0637e230a7/etc.js -> assets/cdn/e755ddcc-etc.js
-FILE agario-lite: https://cdn.jsdelivr.net/gh/234sd4w5w45wers5tr-645758574456456/436874@80f8732e80020f5e1985fc807267ed0637e230a7/circle-game.js -> assets/cdn/146374fc-circle-game.js
-FILE age-of-war: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE age-of-war: https://cdn.jsdelivr.net/gh/artyomriseofnations/gs-swf@6ed8a67a935c49240d2a6dc1e8d4fc8466a28aca/Age%20of%20War.swf -> assets/cdn/7c39b63c-Age_of_War.swf
-FILE age-of-war-2: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE age-of-war-2: https://cdn.jsdelivr.net/gh/vjspranav/FlashGames@c4afbfe9dd12f23ef93e19d7f3d298105448f349/games/Age_Of%20_War_2.swf -> assets/cdn/0be1bae7-Age_Of__War_2.swf
-FILE ahoy-survival: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/UnityProgress.js -> ../_shared/1c97c58907f9-UnityProgress.js
-FILE ahoy-survival: https://cdn.jsdelivr.net/gh/gertdoro/UnityExplorer@e6b59708ba479552b77ff6fd7ff5b73885db6279/lib/Ahoy/UnityLoaderahoy.js -> assets/cdn/0621ce05-UnityLoaderahoy.js
-FILE ahoy-survival: https://cdn.jsdelivr.net/gh/gertdoro/UnityExplorer@e6b59708ba479552b77ff6fd7ff5b73885db6279/lib/Ahoy/Ahoy_WebGL3.json -> assets/cdn/c227f19f-Ahoy_WebGL3.json
-FILE akoopas-revenge: https://cdn.jsdelivr.net/gh/74m4h4/74m4h4-Assets@5cb61b353cff0365c082c9309e82bb561c027201/Run%202/waflash/waflash-style.css -> assets/cdn/c7744fd0-waflash-style.css
-FILE akoopas-revenge: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@0cd0ee738f343e9d9e275549f176ddee1da31302/Koopa1.swf -> assets/cdn/e1e930fe-Koopa1.swf
-FILE akoopas-revenge: https://cdn.jsdelivr.net/gh/zhit73/wafedit@badeade9f58a3987043cdcc12c863c0b2eb3de01/wasm/waflash-player.min.js -> assets/cdn/bbeeb748-waflash-player.min.js
-FILE akoopas-revenge-2: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE akumanor-gaiden: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
-FILE akumanor-gaiden: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/Akumanor%20Gaiden%20v1.1.gb -> assets/cdn/e369cfed-Akumanor_Gaiden_v1.1.gb
-FILE alien-hominid: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE alien-hominid: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@a3f1c2d9db55885e9c8279cf22cf6ceba4451152/alien-hominid.swf -> assets/cdn/c994f917-alien-hominid.swf
-FILE alien-hominid-gba: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
-FILE alien-hominid-gba: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@90ba18050893be41141f81cf3d58090bfe9a78d1/hominid.gba -> assets/cdn/b5ab5b86-hominid.gba
-FILE alien-hominid-gba: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../_shared/cccb2f51c2af-cloak.js
+FILE advent-neon: https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js -> assets/cdn/05353f8b-jszip.min.js
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE alien-transporter: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE alien-transporter: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@3dfe3a186b5b43dd852e6e8afbfd7f280a78a292/alientransporter.swf -> assets/cdn/32f459a7-alientransporter.swf
-FILE alien-vs-predator: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
-FILE alien-vs-predator: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@01b571b5914da40fab49b14349e37cdfc1551b36/Alien%20vs%20Predator%20(World).zip -> assets/cdn/c0231894-Alien_vs_Predator_World_.zip
-FILE alien-vs-predator: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../_shared/cccb2f51c2af-cloak.js
-BASE OK bubbls/UGS-Assets@de4ee4bb507b4e35d98ec9eac6794b018cfb9789/amidst the sky -> amidst-the-sky
-BASE REWRITE amidst-the-sky
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE amigo-pancho: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE amigo-pancho: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4d10be24618d078dd9ea749a8e605f6474addc52/amigo-pancho.swf -> assets/cdn/c4e57274-amigo-pancho.swf
-FILE among-us: https://cdn.jsdelivr.net/gh/mamayaya1/game@f3a882424a8f28d07bdf456b251d889725c4c1e4/projects/among-us/style.css -> assets/cdn/d88b6f4f-style.css
-FILE among-us: https://cdn.jsdelivr.net/gh/mamayaya1/game@f3a882424a8f28d07bdf456b251d889725c4c1e4/projects/among-us/scripts/supportcheck.js -> assets/cdn/fcd82e94-supportcheck.js
-FILE among-us: https://cdn.jsdelivr.net/gh/mamayaya1/game@f3a882424a8f28d07bdf456b251d889725c4c1e4/projects/among-us/scripts/offlineclient.js -> assets/cdn/0232d24b-offlineclient.js
-FILE among-us: https://cdn.jsdelivr.net/gh/gahaden/ags@4f1a2b8755bcbf67ba043a7eca6c2e05d0b5bfe5/main.js -> assets/cdn/b187bc03-main.js
-FILE among-us: https://cdn.jsdelivr.net/gh/mamayaya1/game@f3a882424a8f28d07bdf456b251d889725c4c1e4/projects/among-us/scripts/register-sw.js -> assets/cdn/aba8c04a-register-sw.js
-FILE amorphous: https://cdn.jsdelivr.net/gh/somer-sheff-73/xv@main/ruffle.js -> assets/cdn/f0672f91-ruffle.js
-FILE amorphous: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@aeb16a3b2fb4b413fcfb328185da5278001d5794/450670_Amorphous_.swf -> assets/cdn/8c5f08fe-450670_Amorphous_.swf
-FILE angry-birds: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/UnityProgress.js -> ../_shared/1c97c58907f9-UnityProgress.js
-FILE angry-birds: https://cdn.jsdelivr.net/gh/gertdoro/UnityExplorer@cffa09e09790018403c996d37adb6c4450e8f6c6/Runtime/birds/birds.js -> assets/cdn/5abbcccd-birds.js
-FILE angry-birds: https://cdn.jsdelivr.net/gh/gertdoro/UnityExplorer@cffa09e09790018403c996d37adb6c4450e8f6c6/Runtime/birds/birds.json -> assets/cdn/689a1dc3-birds.json
-FILE angry-birds-space: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE angry-birds-space: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@7dd38b236213c7cd2d21b69a61a14d557c65a539/9v0mpNE1tWMdOM.swf -> assets/cdn/42361c52-9v0mpNE1tWMdOM.swf
-FILE another-world: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
-FILE another-world: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@e0b1be983876b78b05c88d1da82429ce252a97c9/Another%20World%20(Europe).zip -> assets/cdn/6f3e61fb-Another_World_Europe_.zip
-FILE another-world: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../_shared/cccb2f51c2af-cloak.js
-FILE apotris: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
-FILE apotris: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/Apotris.gba -> assets/cdn/13b4cfac-Apotris.gba
-FILE apple-shooter: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE apple-shooter: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@1f37cf6a092c693fd2be903099951609c686c83b/appleshooter.swf -> assets/cdn/80b62c78-appleshooter.swf
-FILE apple-worm: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE apple-worm: https://cdn.jsdelivr.net/gh/oldflashgames/games@b576399812887c0c1208aaa2a95f281dbb93af92/apple-worm.swf -> assets/cdn/ec51578f-apple-worm.swf
-FILE armor-mayhem-2: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE armor-mayhem-2: https://cdn.jsdelivr.net/gh/Stinkalistic/Flash-games@main/559937_ArmorMayhem_Viral_NG_secur.swf -> assets/cdn/687920ce-559937_ArmorMayhem_Viral_NG_secur.swf
-FILE asteroids: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@00b075dab1123c34f488d1e9c87c945716887ede/Asteroids%20(Japan%2C%20USA)%20(En).zip -> assets/cdn/6655ff6a-Asteroids_Japan_USA_En_.zip
-FILE avalanche: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE avalanche: https://cdn.jsdelivr.net/gh/Nailington/3kh0-assets@aeb371b7e88542fd5e61eeed9e967a446d84fe1b/avalanche/avalanche.swf -> assets/cdn/a3a55ff0-avalanche.swf
-FILE awesome-pirates: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE awesome-pirates: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@9f176e452d27807f03e9b620d129e2f8d3aa77b0/31HXHj1AnQJayn.swf -> assets/cdn/00df2ea3-31HXHj1AnQJayn.swf
-FILE awesome-planes: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE awesome-planes: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@b5d63a82c6172b8c595b9864ced5911397b698bb/awesome-planes-132043467.swf -> assets/cdn/484a2ce0-awesome-planes-132043467.swf
-FILE awesome-tanks: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE awesome-tanks: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@754a57837e92bb4552e8247c6a401bd4ce8e4ee7/587840_awesomeTanks.swf -> assets/cdn/947acc37-587840_awesomeTanks.swf
-FILE awesome-tanks-2: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE awesome-tanks-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@754a57837e92bb4552e8247c6a401bd4ce8e4ee7/599993_dingo.swf -> assets/cdn/07b3f669-599993_dingo.swf
-BASE OK bubbls/UGS-Assets@ab3e2b7f551bcab53684a867b5bc3acfd406ebc6/babel tower -> babel-tower
-BASE REWRITE babel-tower
-FILE baby-kaizo: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
-FILE baby-kaizo: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@f32f4612fce8f22b215af0e9dd99004ea0d0e4c1/Baby%20Kaizo%20World%20(V1.2)%20by%20Nowieso%20%5B2019-02-17%5D%20(SMW%20Hack).7z -> assets/cdn/283a9601-Baby_Kaizo_World_V1.2_by_Nowieso_2019-02-17_SMW_Hack_.7z
-FILE baby-kaizo: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../_shared/cccb2f51c2af-cloak.js
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE bad-ice-cream: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE bad-ice-cream: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@8fecedfd237e90740ce30b860005e6819b6df9cd/Bad-Ice-Cream.swf -> ../_shared/3251618f0034-Bad-Ice-Cream.swf
-BASE OK Stinkalistic/junk@main/badmondaysimulator -> bad-monday-simulator
-BASE REWRITE bad-monday-simulator
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE bad-piggies: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE bad-piggies: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@785251c510413f75ce4ccc3530b91f523f03fda8/IpvdsF8mGgh7u4.swf -> assets/cdn/3c58a2f5-IpvdsF8mGgh7u4.swf
-FILE samurai-shodown: https://cdn.jsdelivr.net/gh/Ray52511/Emujsgames@main/samsho1/samsho.zip -> assets/cdn/592a3580-samsho.zip
-FILE samurai-shodown: https://cdn.jsdelivr.net/gh/Ray52511/Emujsgames@main/neogeo/neogeo.zip -> ../_shared/775b1b6edeca-neogeo.zip
-FILE samurai-shodown-2: https://cdn.jsdelivr.net/gh/Ray52511/Emujsgames@main/samsho2/samsho2.zip -> assets/cdn/c75e1b97-samsho2.zip
-FILE samurai-shodown-2: https://cdn.jsdelivr.net/gh/Ray52511/Emujsgames@main/neogeo/neogeo.zip -> ../_shared/775b1b6edeca-neogeo.zip
-FILE samurai-shodown-3: https://cdn.jsdelivr.net/gh/Ray52511/Emujsgames@main/samsho3/samsho3.zip -> assets/cdn/1919f567-samsho3.zip
-FILE samurai-shodown-3: https://cdn.jsdelivr.net/gh/Ray52511/Emujsgames@main/neogeo/neogeo.zip -> ../_shared/775b1b6edeca-neogeo.zip
+FILE bmx2: https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile@main/UGS-Files/clBMX2.html -> assets/cdn/34a90aa0-clBMX2.html
+FILE saihatestation: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsaihatestation.html -> assets/cdn/3e76a9b2-clsaihatestation.html
+FILE sandboxcity: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsandboxcity.html -> assets/cdn/d4d60e6d-clsandboxcity.html
 BASE SKIP 60.7MB R74nCom/sandboxels@main/
-FILE santy: https://cdn.jsdelivr.net/gh/shayderrr/portsv2@main/mrdude/TemplateData/0118.png -> assets/cdn/a47a837d-0118.png
-FILE santy: https://cdn.jsdelivr.net/gh/shayderrr/portsv2@main/Build/WebGL.loader.js -> assets/cdn/c119ccb9-WebGL.loader.js
-BASE OK Stinkalistic/UGS@HEAD/MISC/satryn -> satryn
-BASE REWRITE satryn
-BASE OK Stinkalistic/UGS@main/UNITY/saul -> saul-goodman-run
-BASE REWRITE saul-goodman-run
-BASE OK greeniYT/more-lol@main/sausage-flip -> sausage-flip
-BASE REWRITE sausage-flip
-FILE scary-maze: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE scary-maze: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Scary-Maze-Game(winterrowd.com).swf -> assets/cdn/6c3415ae-Scary-Maze-Game_winterrowd.com_.swf
+FILE sands-of-the-coliseum: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsandsofthecoliseum.html -> assets/cdn/0dcca61e-clsandsofthecoliseum.html
+FILE santa-run: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsantarun.html -> assets/cdn/7a5c80d0-clsantarun.html
+FILE sas-zombie-assault-2: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsaszombieassault2.html -> assets/cdn/bf11cb89-clsaszombieassault2.html
+FILE sayoris-notebook: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsayorisnotebook.html -> assets/cdn/7a746c8f-clsayorisnotebook.html
+FILE scale-the-depths: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscalethedepths.html -> assets/cdn/980c6482-clscalethedepths.html
+FILE scarlet-and-violet: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscarletandviolet.html -> assets/cdn/74f4116b-clscarletandviolet.html
+FILE scarlet-shift: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscarletshift.html -> assets/cdn/e4a4e7be-clscarletshift.html
+FILE scary-teacher-3d: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscaryteacher3d.html -> assets/cdn/c9226b13-clscaryteacher3d.html
 BASE SKIP 301.5MB bubblfan/web-port@latest/schoolboy-runaway
-BASE OK bubbls/UGS-Assets@main/scrap-metal -> scrap-metal-3
-BASE REWRITE scrap-metal-3
-FILE scuba-bear: https://cdn.jsdelivr.net/gh/bubbls/ruffle@5d4fe73206f86e89e5c4aa81811178d313a76861/offlineClientbear.js -> assets/cdn/4957e3dc-offlineClientbear.js
-FILE scuba-bear: https://cdn.jsdelivr.net/gh/bubbls/ruffle@5d4fe73206f86e89e5c4aa81811178d313a76861/jquery-2.1.1.minbear.js -> assets/cdn/d55d37d3-jquery-2.1.1.minbear.js
-FILE scuba-bear: https://cdn.jsdelivr.net/gh/bubbls/ruffle@5d4fe73206f86e89e5c4aa81811178d313a76861/c2runtimebear.js -> assets/cdn/b462f76b-c2runtimebear.js
-BASE OK bubbls/UGS-Assets@main/sea mongrel -> sea-mongrel
-BASE REWRITE sea-mongrel
-FILE secret-of-mana: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@1721ce120357456b193f72f7a6c045599d1c4d2a/Secret%20of%20Mana%20(USA).zip -> assets/cdn/b727b58d-Secret_of_Mana_USA_.zip
-BASE OK bubbls/UGS-Assets@main/self -> self
-BASE REWRITE self
-FILE serious-sam-advance: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/ROMs/serioussamadvance.zip -> assets/cdn/a4eef8a3-serioussamadvance.zip
-FILE seven-days: https://cdn.jsdelivr.net/gh/school-management-google/readme@main/TemplateData/favicon.ico -> assets/cdn/cc1e1f5c-favicon.ico
-FILE seven-days: https://cdn.jsdelivr.net/gh/school-management-google/readme@main/TemplateData/style.css -> assets/cdn/285cd177-style.css
-FILE seven-days: https://cdn.jsdelivr.net/gh/school-management-google/readme@main/TemplateData/UnityProgress.js -> assets/cdn/bf485b20-UnityProgress.js
-FILE seven-days: https://cdn.jsdelivr.net/gh/school-management-google/readme@main/Build/UnityLoader.js -> assets/cdn/92fb9e1b-UnityLoader.js
-FILE seven-days: https://cdn.jsdelivr.net/gh/school-management-google/readme@main/Build/Seven%20Days%20in%20Purgatory.json -> assets/cdn/74b7a749-Seven_Days_in_Purgatory.json
-FILE shadow-courier: https://cdn.jsdelivr.net/gh/familiapablo/safa@main/TemplateData/favicon.ico -> assets/cdn/aa25816e-favicon.ico
-FILE shadow-courier: https://cdn.jsdelivr.net/gh/familiapablo/safa@main/TemplateData/style.css -> assets/cdn/0817e28b-style.css
-FILE shantae: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/gb/Shantae%20(USA).zip -> assets/cdn/9a4718a6-Shantae_USA_.zip
-FILE shift: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE shift: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/422855_Shiftfla5.swf -> assets/cdn/60a049dc-422855_Shiftfla5.swf
-FILE shift-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE shift-2: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/shift2.swf -> ../_shared/49f65e58b8fd-shift2.swf
+FILE scrapyard-dog: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscrapyarddog.html -> assets/cdn/e41f011a-clscrapyarddog.html
+FILE scribblenauts: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscribblenauts.html -> assets/cdn/559db2ea-clscribblenauts.html
+FILE sd-the-war: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsd-thewar.html -> assets/cdn/33e48171-clsd-thewar.html
+FILE sdf: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsdf.html -> assets/cdn/bc2700d0-clsdf.html
+FILE sega2gg: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsega2gg.html -> assets/cdn/480d8285-clsega2gg.html
+FILE segasonicthehedgehog: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSegaSonicTheHedgehog.html -> assets/cdn/77246106-clSegaSonicTheHedgehog.html
+FILE sentry-fortress: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsentryfortress.html -> assets/cdn/b57e6bc0-clsentryfortress.html
+FILE sereni-trove: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clserenitrove.html -> assets/cdn/f526abf1-clserenitrove.html
+FILE serving-up-madness: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clservingupmadness.html -> assets/cdn/64a0a798-clservingupmadness.html
+FILE sfk: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsfk.html -> assets/cdn/c17ed0f2-clsfk.html
+FILE sfk-last-stand: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsfklaststand.html -> assets/cdn/6364eea7-clsfklaststand.html
+FILE sfk-league: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsfkleague.html -> assets/cdn/767047cd-clsfkleague.html
+FILE sfk2: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsfk2.html -> assets/cdn/dfd5b0cb-clsfk2.html
+FILE shadow-dancer: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshadowdancer.html -> assets/cdn/66fe8d21-clshadowdancer.html
+FILE shaggy: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshaggy.html -> assets/cdn/1b1cd1cd-clshaggy.html
+FILE shantae-gb: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshantaegb.html -> assets/cdn/a3bfc1a6-clshantaegb.html
+FILE shape-transform: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshapetransform.html -> assets/cdn/d413348a-clshapetransform.html
+FILE shc1: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshc1.html -> assets/cdn/77a0801f-clshc1.html
+FILE shc2: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshc2.html -> assets/cdn/1fa92880-clshc2.html
+FILE shc3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshc3.html -> assets/cdn/7e843399-clshc3.html
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshellshockers.html: curl: (22) The requested URL returned error: 404
+
 BASE SKIP 232.1MB slqntdevss/ShiftAtMidnightPort@latest/
-FILE shift2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE shift2: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/shift2.swf -> ../_shared/49f65e58b8fd-shift2.swf
-FILE shopping-cart-hero: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE shopping-cart-hero: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/shoppingcarthero.swf -> assets/cdn/e97eb31e-shoppingcarthero.swf
-FILE short-life: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/style.css -> ../_shared/843987eefd7d-style.css
-FILE short-life: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/UnityProgress.js -> ../_shared/1c97c58907f9-UnityProgress.js
-FILE short-life: https://cdn.jsdelivr.net/gh/gertdoro/IoC-framework@c576767b02bbd79a8386dbf1cb5281c424de9791/ProjectSettings/Short/short.js -> assets/cdn/c569749b-short.js
-FILE short-life: https://cdn.jsdelivr.net/gh/gertdoro/IoC-framework@c576767b02bbd79a8386dbf1cb5281c424de9791/ProjectSettings/Short/short.json -> assets/cdn/40241f63-short.json
-BASE OK Stinkalistic/UGS@main/MISC/shredmill -> shredmill
-BASE REWRITE shredmill
+FILE shift3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshift3.html -> assets/cdn/32552563-clshift3.html
+FILE shinobi: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshinobi.html -> assets/cdn/d0d8d64e-clshinobi.html
+FILE shinobi-revenge: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshinobirevenge.html -> assets/cdn/7c5a16b2-clshinobirevenge.html
+FILE shinobi3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshinobi3.html -> assets/cdn/7495cd57-clshinobi3.html
+FILE shotout-4: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshotout4.html -> assets/cdn/ee5061a4-clshotout4.html
+FILE shred-mill: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshredmill.html -> assets/cdn/5cc3ae73-clshredmill.html
+FILE shred-sauce: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshredsauce.html -> assets/cdn/8daa7cc6-clshredsauce.html
+FILE shrek-2: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshrek-2.html -> assets/cdn/cb33161f-clshrek-2.html
+FILE shrubnaut: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshrubnaut.html -> assets/cdn/50203d05-clshrubnaut.html
 BASE SKIP 279.2MB Stinkalistic/UGS@main/UNITY/fent
-FILE sierra-7: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sierra-7: https://cdn.jsdelivr.net/gh/Stinkalistic/Flash-games@main/sierra7.swf -> assets/cdn/88a5877a-sierra7.swf
-FILE sift-heads: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sift-heads: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_1.swf -> ../_shared/06b64c174824-sift_heads_cartels_act_1.swf
-FILE sift-heads-cartels: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sift-heads-cartels: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_1.swf -> ../_shared/06b64c174824-sift_heads_cartels_act_1.swf
-FILE sift-heads-cartels-act-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sift-heads-cartels-act-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_2.swf -> assets/cdn/5cd814ae-sift_heads_cartels_act_2.swf
-FILE sift-heads-cartels-act-3: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sift-heads-cartels-act-3: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_3.swf -> assets/cdn/82f14d44-sift_heads_cartels_act_3.swf
-FILE sift-heads-world: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sift-heads-world: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/561934_SHW_Ultimatum_Gamesfree.swf -> assets/cdn/f8100c1f-561934_SHW_Ultimatum_Gamesfree.swf
-BASE OK bubbls/UGS-Assets@5a10e4807bce6070b5f3f7f18c1eed34230cddf2/silohuette showdown -> silhouette-showdown
-BASE REWRITE silhouette-showdown
-FILE silk-melody: https://cdn.jsdelivr.net/gh/shayderrr/portsv4@main/7448601/TemplateData/style.css -> assets/cdn/043e907b-style.css
-BASE OK galaxyking16/r@main/. -> six-cats-under
-BASE REWRITE six-cats-under
+FILE side-pocket: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsidepocket.html -> assets/cdn/ff7a2445-clsidepocket.html
+FILE silk: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsilk.html -> assets/cdn/fd85b681-clsilk.html
+FILE silo-showdown: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsiloshowdow.html -> assets/cdn/3b058f30-clsiloshowdow.html
+FILE silver: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsilver.html -> assets/cdn/ee1c11ab-clsilver.html
+FILE simcity-64: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsimcity64.html -> assets/cdn/826168a8-clsimcity64.html
+FILE simpsons-arcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsimpsonsarcade.html -> assets/cdn/d47c13c4-clsimpsonsarcade.html
 BASE SKIP 63.6MB bubbls/UGS-Assets@main/six-ways-to-suffer-lolol
-FILE skate-or-die: https://cdn.jsdelivr.net/gh/Deformed-steve/emujsgames@main/Skate%20or%20Die%20(USA).nes -> assets/cdn/6a5862e9-Skate_or_Die_USA_.nes
-FILE skibidi-in-the-backrooms: https://cdn.jsdelivr.net/gh/dayyiq/teyetey@main/style.css -> assets/cdn/38b9f783-style.css
-FILE skibidi-in-the-backrooms: https://cdn.jsdelivr.net/gh/dayyiq/teyetey@main/scripts/supportcheck.js -> assets/cdn/82724d74-supportcheck.js
-FILE skibidi-in-the-backrooms: https://cdn.jsdelivr.net/gh/dayyiq/teyetey@main/scripts/offlineclient.js -> assets/cdn/4521794c-offlineclient.js
-FILE skibidi-in-the-backrooms: https://cdn.jsdelivr.net/gh/dayyiq/teyetey@main/scripts/main.js -> assets/cdn/04ec1b83-main.js
-FILE skibidi-in-the-backrooms: https://cdn.jsdelivr.net/gh/dayyiq/teyetey@main/scripts/register-sw.js -> assets/cdn/1cc7d963-register-sw.js
-BASE OK Pok12d/ta@main/skibsho -> skibidi-shooter
-BASE REWRITE skibidi-shooter
-FILE sky-race-3d: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@accf8c825d857497e3d692c9bf34c67ce27796f0/sky%20race/style.css -> assets/cdn/5d26a932-style.css
-FILE skywire: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE skywire: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/swf/Skywire.swf -> assets/cdn/48d57b2f-Skywire.swf
-FILE skywire-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE skywire-2: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/swf/Skywire%202%20all%20levels%20unlocked.swf -> assets/cdn/0e36264f-Skywire_2_all_levels_unlocked.swf
-BASE OK bubblfan/web-port@main/slender -> slenderman-the-8-pages
-BASE REWRITE slenderman-the-8-pages
-BASE OK bubbls/youtube-playables@fea22b681fcc55bd6d5b059e2843120d3fbf7dd6/slice it all -> slice-it-all
-BASE REWRITE slice-it-all
-BASE OK bubbls/UGS-Assets@main/slide-in-the-woods- -> slide-in-the-woods
-BASE REWRITE slide-in-the-woods
-FILE slime-laboratory: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE slime-laboratory: https://cdn.jsdelivr.net/gh/jackilyna/html2canvas@886eb08b82fdb8227b9d36f4132eb01329217c76/examples/laboratory.swf -> assets/cdn/51acb279-laboratory.swf
-BASE OK gn-math/assets@51462750d29b68ac1e33887c1bf13d9c478d5ead/198 -> slope
-BASE REWRITE slope
-FILE slope-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@b7188745eb03a3bde3183ff3494d0713ac5ad6c5/slope%202%20player/TemplateData/style.css -> ../_shared/f922d710bdc3-style.css
-BASE OK bubbls/UGS-Assets@main/slope 3 -> slope-3
-BASE REWRITE slope-3
-BASE OK gn-math/assets@51462750d29b68ac1e33887c1bf13d9c478d5ead/198 -> slope-plus
-BASE REWRITE slope-plus
-FILE slope2player: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@b7188745eb03a3bde3183ff3494d0713ac5ad6c5/slope%202%20player/TemplateData/style.css -> ../_shared/f922d710bdc3-style.css
-FILE slope2player: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@b7188745eb03a3bde3183ff3494d0713ac5ad6c5/slope%202%20player/Build/WebGL2Players%20v1.1.loader.js -> assets/cdn/1bcfa12d-WebGL2Players_v1.1.loader.js
-BASE OK bubbls/UGS-Assets@3fd4770c44c7de90d99d09b31d8cc0d4fb1ebcb5/slot or not -> slot-or-not
-BASE REWRITE slot-or-not
+FILE skate-it: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clskateit.html -> assets/cdn/0c3c054d-clskateit.html
+FILE skinwalker: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clskinwalker.html -> assets/cdn/3b679812-clskinwalker.html
+FILE skong: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clskong.html -> assets/cdn/8de07503-clskong.html
+FILE skyriders: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSkyRiders.html -> assets/cdn/59a79fb3-clSkyRiders.html
+FILE slope3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clslope3.html -> assets/cdn/c58cb619-clslope3.html
 BASE MISS fork-so-the-site-i-take-wont-be-deleted/bulbasaurchat.github.io@main/games/slowroads
-BASE OK fork-so-the-site-i-take-wont-be-deleted/bulbasaurchat.github.io@main/games/slow-roads-main/slow-roads-main -> slowroads
-BASE REWRITE slowroads
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsm64.html: curl: (22) The requested URL returned error: 404
+
 FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/n64/SM64Land/Super%20Mario%2064%20Land.z64: curl: (22) The requested URL returned error: 404
 
+FILE smash-hit-ripoff: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSmash%20Hit%20Ripoff.html -> assets/cdn/c9c0f2be-clSmash_Hit_Ripoff.html
 BASE SKIP 92.8MB Pok12d/ta@main/sma
-FILE snail-bob: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE snail-bob: https://cdn.jsdelivr.net/gh/JoshMerlino/shsg-pfile@82bf749f1807f294a619dc5c7b686bcdbdc35540/games/snail-bob.swf -> assets/cdn/d7e9149b-snail-bob.swf
-FILE snail-bob-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE snail-bob-2: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/snail-bob-2.swf -> assets/cdn/bda38ec0-snail-bob-2.swf
-FILE snail-bob-3: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE snail-bob-3: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/snail-bob-3.swf -> assets/cdn/04899044-snail-bob-3.swf
-FILE snail-bob-4: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE snail-bob-4: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/snail-bob-space.swf -> assets/cdn/1fc31c1b-snail-bob-space.swf
-FILE snail-bob-5: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE snail-bob-5: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/snail-bob-5-love-story.swf -> assets/cdn/484893da-snail-bob-5-love-story.swf
-FILE snakelike: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@0e8e7cf4a898b05cac182b0bec565e4f545010e5/snakelike.js -> assets/cdn/fa4a9211-snakelike.js
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsmw.html: curl: (22) The requested URL returned error: 404
+
+FILE snake: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnakelike.html -> assets/cdn/c64caedc-clsnakelike.html
 FAILED https://cdn.jsdelivr.net/gh/meymenet645x/xu@main/TemplateData/style.css: curl: (22) The requested URL returned error: 404
 
-FILE sniper-v2: https://cdn.jsdelivr.net/gh/tty67hlt6jf6/c2@main/TemplateData/css/style.css -> assets/cdn/03fb87b8-style.css
-FILE snow-rider: https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/TemplateData/style.css -> ../_shared/aacce0309303-style.css
-FILE snow-rider: https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/TemplateData/UnityProgress.js -> ../_shared/74aa90cd6252-UnityProgress.js
-FILE snow-rider: https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/Build/UnityLoader.js -> ../_shared/ccc78b67e200-UnityLoader.js
-FILE snow-rider: https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/Build/SnowRider3D-gd-1.json -> assets/cdn/93a627e2-SnowRider3D-gd-1.json
-FILE snow-rider-3d: https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/TemplateData/style.css -> ../_shared/aacce0309303-style.css
-FILE snow-rider-3d: https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/TemplateData/UnityProgress.js -> ../_shared/74aa90cd6252-UnityProgress.js
-FILE snow-rider-3d: https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/Build/UnityLoader.js -> ../_shared/ccc78b67e200-UnityLoader.js
+FILE snow-bros: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowbros.html -> assets/cdn/09b8ae16-clsnowbros.html
+FILE snow-brothers: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowbrothers.html -> assets/cdn/f16471f7-clsnowbrothers.html
+FILE snow-drift: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowdrift.html -> assets/cdn/3cfbb81c-clsnowdrift.html
 FAILED https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/Build/SnowRider3D.json: curl: (22) The requested URL returned error: 404
 
-BASE OK cooldude2349/everything@main/snowroadd -> snow-road
-BASE REWRITE snow-road
-FILE snowball-io: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/style.css -> ../_shared/843987eefd7d-style.css
-FILE snowball-io: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/UnityProgress.js -> ../_shared/1c97c58907f9-UnityProgress.js
-FILE snowball-io: https://cdn.jsdelivr.net/gh/gertdoro/SQLite4Unity3d@eda39654f6ca782386c5d8c43677a36873fc1319/Example/Assets/js/sb.js -> assets/cdn/97d2fb36-sb.js
-FILE snowball-io: https://cdn.jsdelivr.net/gh/gertdoro/SQLite4Unity3d@eda39654f6ca782386c5d8c43677a36873fc1319/Example/Assets/js/sb.json -> assets/cdn/397f139c-sb.json
-FILE snowboard-obby: https://cdn.jsdelivr.net/gh/shayderrr/portsv2@main/1.xml -> assets/cdn/322f32d8-1.xml
-BASE OK bubbls/UGS-Assets@74d476b72d23ea1cebc9af41306baab442fe632c/soccer bros -> soccer-bros
-BASE REWRITE soccer-bros
-BASE OK bubbls/UGS-Assets@74d476b72d23ea1cebc9af41306baab442fe632c/soccer bros -> soccerbros
-BASE REWRITE soccerbros
-FILE soda-simulator: https://cdn.jsdelivr.net/gh/gzuidhof/coi-serviceworker@latest/coi-serviceworker.min.js -> assets/cdn/24ade476-coi-serviceworker.min.js
+FILE snow-white: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowwhite.html -> assets/cdn/04ebb022-clsnowwhite.html
+FILE snowballio: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowballio.html -> assets/cdn/24d7053b-clsnowballio.html
+FILE snowbrosgenesis: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSnowBrosGenesis.html -> assets/cdn/2600c8a4-clSnowBrosGenesis.html
+FILE snowroad: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowroad.html -> assets/cdn/2f92b541-clsnowroad.html
 BASE SKIP 82.5MB bubbls/UGS-Assets@main/solar-sandbox
 BASE SKIP 108.4MB bubbls/youtube-playables@a2e4bb68955f2665d16669bbbf7be3123870c2e0/solar-smash
 BASE SKIP 108.4MB bubbls/youtube-playables@a2e4bb68955f2665d16669bbbf7be3123870c2e0/solar-smash
-FILE solarsmash: https://cdn.jsdelivr.net/gh/bubbls/youtube-playables@main/ytgame.js -> assets/cdn/20058cc1-ytgame.js
-FILE solarsmash: https://cdn.jsdelivr.net/gh/bubbls/youtube-playables@a2e4bb68955f2665d16669bbbf7be3123870c2e0/solar-smash/lib/jszip.min.js -> assets/cdn/a3a64750-jszip.min.js
-FILE solitaire: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE solitaire: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bf808b75a3d6ee341eac40ac6836486cacec3c4e/solitaire.swf -> assets/cdn/e557badb-solitaire.swf
-FILE sonic-1-mobile: https://cdn.jsdelivr.net/gh/UGBONTOP/sonic-1-jsdlivr@main/js/index.js -> assets/cdn/3b6d6733-index.js
-FILE sonic-2-mobile: https://cdn.jsdelivr.net/gh/UGBONTOP/sonic-1-jsdlivr@main/sonic2/index.js -> assets/cdn/c02503be-index.js
-FILE sonic-3-and-knuckles: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bf934cf058db0e8fa1ad72614f4bd5d553d508f7/Sonic_Knuckles_wSonic3.bin -> assets/cdn/4e7ef5b3-Sonic_Knuckles_wSonic3.bin
-FILE sonic-advance: https://cdn.jsdelivr.net/gh/mastercodewolf/cdn-gba@23d7b6c67ff8322cdbcea68af9cb33a1e8a6a104/2%20in%201%20-%20Sonic%20Advance%20%26%20Sonic%20Battle%20(E)(Rising%20Sun).zip -> assets/cdn/4ace22d6-2_in_1_-_Sonic_Advance_Sonic_Battle_E_Rising_Sun_.zip
-FILE sonic-advance-2: https://cdn.jsdelivr.net/gh/mastercodewolf/cdn-gba@973a196f42fb38c225d2c0170e397d9c4457b44d/Sonic%20Advance%202%20(E)(Patience).zip -> assets/cdn/d90c3d46-Sonic_Advance_2_E_Patience_.zip
-FILE sonic-advance-3: https://cdn.jsdelivr.net/gh/mastercodewolf/cdn-gba@b43af3048b45da833dab13e5beb27c56c242e282/Sonic%20Advance%203%20(E)(TrashMan).zip -> assets/cdn/94f011fd-Sonic_Advance_3_E_TrashMan_.zip
-FILE sonic-and-knuckles: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/sonicandknuckles/Sonic%20%26%20Knuckles%20(World).zip -> assets/cdn/b9d18e03-Sonic_Knuckles_World_.zip
 BASE SKIP 428.2MB bubbls/ports@main/sonic-and-the-falling-star
-FILE sonic-battle: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@d8d4b600874b37d78b68f524a771c1b140f8464f/Sonic%20Battle%20(USA)%20(En%2CJa%2CFr%2CDe%2CEs%2CIt).zip -> assets/cdn/009472a8-Sonic_Battle_USA_En_Ja_Fr_De_Es_It_.zip
-FILE sonic-cd: https://cdn.jsdelivr.net/gh/UGBONTOP/ugs-soniccd@main/js1/index.js -> assets/cdn/6f5ae851-index.js
-BASE OK bubblfan/web-port@latest/sonic.exe -> sonic-exe-original
-BASE REWRITE sonic-exe-original
-FILE sonic-mania: https://cdn.jsdelivr.net/gh/UGBONTOP/Sonic-Mania-InYourBrowser@main/Data.js -> assets/cdn/8c8e3f95-Data.js
-FILE sonic-mania: https://cdn.jsdelivr.net/gh/UGBONTOP/Sonic-Mania-InYourBrowser@refs/heads/main/RSDKv5U.js -> assets/cdn/a73c5f73-RSDKv5U.js
-FILE sonic-revert: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/style.css -> ../_shared/843987eefd7d-style.css
-FILE sonic-revert: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/UnityProgress.js -> ../_shared/1c97c58907f9-UnityProgress.js
-FILE sonic-revert: https://cdn.jsdelivr.net/gh/CycloKid/sonic-revert@938c293b495adfec91a0b199700e3d2cd22c0252/Build/UnityLoader.js -> assets/cdn/a10fffda-UnityLoader.js
-FILE sonic-revert: https://cdn.jsdelivr.net/gh/Iwannadieinc/games@007e2fbe2800b25085617debbd98bbed2ecf54ac/games/Sonic_Revert.json -> assets/cdn/94c79fd7-Sonic_Revert.json
-FILE sonic-robo-blast-2: https://cdn.jsdelivr.net/gh/UGBONTOP/ugs-sbr2v2.2.4@main/assets/srb2.png -> assets/cdn/d722955a-srb2.png
+FILE sonic-knuckles-3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%203.html -> assets/cdn/efe84662-clSonic_Knuckles_Sonic_The_Hedgehog_3.html
 FAILED https://cdn.jsdelivr.net/gh/UGBONTOP/ugs-sbr2v2.2.4@main/index.js: curl: (22) The requested URL returned error: 404
 
-FILE sonic-spinball: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/sonicspinball/Sonic%20The%20Hedgehog%20Spinball%20(USA).zip -> assets/cdn/2623574d-Sonic_The_Hedgehog_Spinball_USA_.zip
-FILE sonic-the-hedgehog: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/sonicthehedgehog/Sonic%20The%20Hedgehog%20(USA%2C%20Europe).md -> assets/cdn/21284576-Sonic_The_Hedgehog_USA_Europe_.md
-FILE sonic-the-hedgehog-2: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/sonicthehedgehog2/Sonic%20The%20Hedgehog%202%20(World).md -> assets/cdn/ea0d263d-Sonic_The_Hedgehog_2_World_.md
-FILE sonny: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sonny: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/sonny2.swf -> ../_shared/a25d64d68c12-sonny2.swf
-FILE sonny-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sonny-2: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/sonny2.swf -> ../_shared/a25d64d68c12-sonny2.swf
+FILE sonic1scorerush: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonic1ScoreRush.html -> assets/cdn/cd07b540-clSonic1ScoreRush.html
+FILE sonic1thesuperchallenges: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonic1TheSuperChallenges.html -> assets/cdn/096e8296-clSonic1TheSuperChallenges.html
+FILE sonic2scorerush: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonic2ScoreRush.html -> assets/cdn/cc720bb4-clSonic2ScoreRush.html
+FILE sonicclassics: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonicClassics.html -> assets/cdn/6df804c3-clSonicClassics.html
+FILE sonichellfiresaga: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonicHellfireSaga.html -> assets/cdn/fc4875bb-clSonicHellfireSaga.html
+FILE sonicinsm64: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonicInSM64.html -> assets/cdn/284cbdda-clSonicInSM64.html
+FILE sonicinsmw: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonicinSMW.html -> assets/cdn/cdf3c865-clSonicinSMW.html
 BASE SKIP 1092.9MB bubblfan/soundboard@main/
-BASE OK bubbls/UGS-Assets@686a21cfe19170a5ca9c3eee59d1cd886d702bed/space company -> space-company
-BASE REWRITE space-company
-FILE space-is-key: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE space-is-key: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bb8b833e6462a2b0e42018295f8df9abbe9ae3c3/space-is-key-10912f2f2.swf -> assets/cdn/e816ce4c-space-is-key-10912f2f2.swf
-FILE space-is-key-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE space-is-key-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bb8b833e6462a2b0e42018295f8df9abbe9ae3c3/space-is-key-2-130473467.swf -> assets/cdn/0bf56d5d-space-is-key-2-130473467.swf
-FILE space-is-key-xmas: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE space-is-key-xmas: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bb8b833e6462a2b0e42018295f8df9abbe9ae3c3/space-is-key-xmas-17615ab14.swf -> assets/cdn/ba58a699-space-is-key-xmas-17615ab14.swf
+FILE sovereignoftheskys: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSovereignoftheskys.html -> assets/cdn/cb4f06ef-clSovereignoftheskys.html
+FILE space-invaders: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clspaceinvaders.html -> assets/cdn/dd3151d9-clspaceinvaders.html
 BASE SKIP 63.0MB bubbls/UGS-Assets@main/space wars battleground
-BASE OK bubbls/UGS-Assets@d84a892372bc6e836fafbd784d9c12f83071b9e3/space waves -> space-waves
-BASE REWRITE space-waves
-FILE special-mission: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE special-mission: https://cdn.jsdelivr.net/gh/shayderrr/portsv2@main/swf_files/special-mission.swf -> assets/cdn/b86c2732-special-mission.swf
-BASE OK bubbls/clickspeed@HEAD/. -> speed-per-click
-BASE REWRITE speed-per-click
-BASE OK bubbls/clickspeed@HEAD/. -> speed-stars
-BASE REWRITE speed-stars
-BASE OK bubbls/UGS-Assets@main/spelunky -> spelunky-classic-hd
-BASE REWRITE spelunky-classic-hd
-FILE spewer: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE spewer: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/spewer.swf -> assets/cdn/3c0f8bf7-spewer.swf
+FILE spelunky: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clspelunky.html -> assets/cdn/9d2d0f73-clspelunky.html
 FAILED https://cdn.jsdelivr.net/gh/by5b/r474@main/gamesnacks.js: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/by5b/r474@main/lib/VOODOO-H5SDK.snacks.js: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/by5b/r474@main/main.js: curl: (22) The requested URL returned error: 404
 
-FILE spongebob-powerkart: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE spongebob-powerkart: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/SBR_LevelBuilderEnabled.swf -> assets/cdn/fdde9e4e-SBR_LevelBuilderEnabled.swf
-FILE sports-heads: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sports-heads: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/swf/sports_heads_ice_hockey.swf -> ../_shared/042fa67b04b7-sports_heads_ice_hockey.swf
-FILE sports-heads-ice-hockey: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sports-heads-ice-hockey: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/swf/sports_heads_ice_hockey.swf -> ../_shared/042fa67b04b7-sports_heads_ice_hockey.swf
-FILE sprinter: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sprinter: https://cdn.jsdelivr.net/gh/shayderrr/portsv2@main/swf_files/sprinter.swf -> assets/cdn/149aef36-sprinter.swf
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clspongebobadventure.html: curl: (22) The requested URL returned error: 404
+
+FILE sportsheads-icehockey: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSportsHeadsIceHockey.html -> assets/cdn/b49270ee-clSportsHeadsIceHockey.html
 BASE SKIP 129.0MB bubbls/UGS-Assets@ec2e5986b8bd87311798b8b90392ecc950ff9051/sprunked
 BASE SKIP 128.9MB bubblfan/sprunki@HEAD/
-FILE sprunki-pyra-mixed: https://cdn.jsdelivr.net/gh/UGBONTOP/ugs-crunch-files@main/pyramixed/script.js -> assets/cdn/55f04441-script.js
-FILE squid-playground: https://cdn.jsdelivr.net/gh/kamalyahyha/lol@main/scripts/modernjscheck.js -> assets/cdn/81d08339-modernjscheck.js
-FILE squid-playground: https://cdn.jsdelivr.net/gh/kamalyahyha/lol@main/scripts/supportcheck.js -> assets/cdn/ff5d23df-supportcheck.js
-FILE squid-playground: https://cdn.jsdelivr.net/gh/kamalyahyha/lol@main/scripts/offlineclient.js -> assets/cdn/3656c27a-offlineclient.js
-FILE squid-playground: https://cdn.jsdelivr.net/gh/kamalyahyha/lol@main/scripts/c3main.js -> assets/cdn/c91a88b5-c3main.js
-BASE OK bubbls/UGS-Assets@269dbddebd3c6b95b4db7467fef7935f4e36a6d3/stackball.io -> stack-ball
-BASE REWRITE stack-ball
-BASE OK bubbls/UGS-Assets@269dbddebd3c6b95b4db7467fef7935f4e36a6d3/stackball.io -> stackball
-BASE REWRITE stackball
-BASE OK bubbls/UGS-Assets@269dbddebd3c6b95b4db7467fef7935f4e36a6d3/stackball.io -> stackball-io
-BASE REWRITE stackball-io
-BASE OK bubbls/UGS-Assets@7edd971a7c7283829db983c25289230aa9c782d1/stacktris -> stacktris
-BASE REWRITE stacktris
-FILE star-fox: https://cdn.jsdelivr.net/gh/bubbls/clsm64@b1754decf7f557af24c2af892c5f7c08dc9cea41/Star%20Fox.zip -> assets/cdn/cfbbb487-Star_Fox.zip
-FILE star-fox-64: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/starfox64/starfox64.zip -> assets/cdn/7570b1ad-starfox64.zip
-BASE OK bubbls/youtube-playables@main/state io -> state-io
-BASE REWRITE state-io
-BASE OK bubbls/UGS-Assets@main/station 141 -> station-141
-BASE REWRITE station-141
+FILE ssf2-arcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSSF2Arcade.html -> ../_shared/91578ac0e40e-clSSF2Arcade.html
+FILE ssf2tarcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSSF2TArcade.html -> assets/cdn/7914dd19-clSSF2TArcade.html
+FILE stack: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clgymstack.html -> assets/cdn/26827c52-clgymstack.html
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clstardewvalley.html: curl: (22) The requested URL returned error: 404
+
 BASE SKIP 89.9MB bubbls/UGS-Assets@main/station-meltdown
-FILE steak-and-jake: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE steak-and-jake: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/steakandjake.swf -> assets/cdn/5779e679-steakandjake.swf
-BASE OK bubbls/UGS-Assets@e4eef50361d9e575bc7cd834e14388c6e675a67e/steal brainrot -> steal-a-brainrot
-BASE REWRITE steal-a-brainrot
-FILE stealth-assassin: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE stealth-assassin: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@9409edb130476c1fdfcb9f31d440d29431722261/stealth_assassin.swf -> assets/cdn/b7948dcd-stealth_assassin.swf
 BASE SKIP 109.1MB bubbls/youtube-playables@ae15b516c02303c30141c07330280ab04fb897b2/stealth-master
 BASE SKIP 84.9MB greeniYT/y@main/stick-duel-the-war/files.twoplayergames.org/files/games
-BASE OK cooldude2349/everything@main/stickfight -> stick-fighter
-BASE REWRITE stick-fighter
-FILE stick-man-swat: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE stick-man-swat: https://cdn.jsdelivr.net/gh/shayderrr/portsv2@main/swf_files/stickman-SWAT.swf -> assets/cdn/1786b784-stickman-SWAT.swf
-BASE OK bubbls/UGS-Assets@bba3c3c4e71662c9d41dea31e564fa9952c123af/stick merge -> stick-merge
-BASE REWRITE stick-merge
-FILE stick-rpg: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE stick-rpg: https://cdn.jsdelivr.net/gh/Robosapien737/totallyeducationalwhat@4e52fb6fc198a4d85939722d2fb249d64a4042ea/Stick-RPG-Complete.swf -> assets/cdn/c02ab63b-Stick-RPG-Complete.swf
-FILE stick-slasher: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/stickslasher/TemplateData/style.css -> assets/cdn/956aa9f2-style.css
-FILE stick-war: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE stick-war: https://cdn.jsdelivr.net/gh/AsePlayer/Stick-War-Classic@92a6cd343acd325c59f4201d00f7f98ed9c98c1d/Stick_War_1.swf -> assets/cdn/8c392191-Stick_War_1.swf
-FILE stick-war-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE stick-war-2: https://cdn.jsdelivr.net/gh/Stinkalistic/Flash-games@main/607593_stickwar2ordermpeire.swf -> assets/cdn/9d291a46-607593_stickwar2ordermpeire.swf
-BASE OK CoolDude2349/everything@main/stickjet -> stickjet-challenge
-BASE REWRITE stickjet-challenge
 BASE SKIP 79.1MB bubblfan/cg-rip@main/stickman-and-guns
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clstickmanarmy.html: curl: (22) The requested URL returned error: 404
+
 BASE SKIP 79.1MB faralong/all@main/stickclash
 BASE SKIP 79.1MB bubblfan/cg-rip@main/stickman-and-guns
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clstickmandestruction.html: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clstickmanfighter.html: curl: (22) The requested URL returned error: 404
+
 BASE SKIP 110.3MB bubbls/UGS-Assets@main/STICKMAN GTA
-BASE OK bubblfan/google-class@cd06df26d3c4d9f73c8151fc13f7b2dc27f3adda/stickman-hook -> stickman-hook
-BASE REWRITE stickman-hook
-BASE OK bubbls/UGS-Assets@646b8183aa1d6c61b073dc5ade2f550bace125b9/Stickman Clash -> stickman-kingdom-clash
-BASE REWRITE stickman-kingdom-clash
-BASE OK faralong/all@main/stickkombat -> stickman-kombat-2d
-BASE REWRITE stickman-kombat-2d
+FILE stickmankingdomclash: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStickmanKingdomclash.html -> assets/cdn/194c89e9-clStickmanKingdomclash.html
 BASE SKIP 63.6MB bubbls/UGS-Assets@5765230aac4c0072a5b1021eab4a6a4b9df597f9/stone-grass-mowing-simulator
-FILE storm-the-house: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE storm-the-house: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@6999f90d7fabba6b5f7bb9d017129ee92f28a296/stormthehouse.swf -> assets/cdn/e24ec3fc-stormthehouse.swf
-FILE storm-the-house-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE storm-the-house-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/storm-the-house-2-348.swf -> assets/cdn/2cad8927-storm-the-house-2-348.swf
-FILE storm-the-house-3: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE storm-the-house-3: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@23940e9185b1d0e1683510556486f02ada44abef/978.swf -> assets/cdn/7847af4a-978.swf
-FILE street-fighter-2: https://cdn.jsdelivr.net/gh/ap-math-class/exams@latest/mame/sf2.zip -> assets/cdn/f83c5396-sf2.zip
-FILE street-fighter-alpha: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/mame/test/sfau.zip -> assets/cdn/4a5b0cc1-sfau.zip
 FAILED https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/mame/sfa2u.zip: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/Ray52511/Emujsgames@main/sfa3u/Street%20Fighter%20Alpha%203%20(USA).chd: curl: (22) The requested URL returned error: 404
 
-FILE streets-of-rage: https://cdn.jsdelivr.net/gh/bubbls/pokemonhacker@089de9f10d9c9f69d82ff286246138bd0015f31c/Streets%20of%20Rage%20(World)%20(En%2CJa).zip -> assets/cdn/1a8962fa-Streets_of_Rage_World_En_Ja_.zip
-FILE streets-of-rage-2: https://cdn.jsdelivr.net/gh/bubbls/pokemonhacker@089de9f10d9c9f69d82ff286246138bd0015f31c/Streets%20of%20Rage%202%20(USA).zip -> assets/cdn/4275f329-Streets_of_Rage_2_USA_.zip
-FILE streets-of-rage-3: https://cdn.jsdelivr.net/gh/bubbls/pokemonhacker@089de9f10d9c9f69d82ff286246138bd0015f31c/Streets%20of%20Rage%203%20(USA).zip -> assets/cdn/bca36884-Streets_of_Rage_3_USA_.zip
-FILE strike-force-heroes: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE strike-force-heroes: https://cdn.jsdelivr.net/gh/bubbls/help@e3d301967d9bcbe4aa367f30f041cf5e18bf63f2/strike-force-heroes.swf -> assets/cdn/c301a9aa-strike-force-heroes.swf
-FILE strike-force-heroes-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE strike-force-heroes-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bfbcc561fbcac0ac2d0d0806d020ef414f260fbd/strike-force-heroes--14775.swf -> assets/cdn/d62a99d2-strike-force-heroes--14775.swf
-FILE strike-force-heroes-3: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE strike-force-heroes-3: https://cdn.jsdelivr.net/gh/krestenlaust/swfgames@d251f874e8873131fb4d798f0586946e5c9acf6d/strike-force-heroes-3.swf -> assets/cdn/7a37b9fc-strike-force-heroes-3.swf
-FILE strikeforce-kitty: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE strikeforce-kitty: https://cdn.jsdelivr.net/gh/AmmarSAA/Flash-Games-Directory@26ff9bba4b72e84d1df454f1a0f3edf902406385/strikeforce_kitty.swf -> assets/cdn/d756f141-strikeforce_kitty.swf
-FILE strikeforce-kitty-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE strikeforce-kitty-2: https://cdn.jsdelivr.net/gh/bubbls/help@e3d301967d9bcbe4aa367f30f041cf5e18bf63f2/strikeforce-kitty-2-17643.swf -> assets/cdn/7c0bbca3-strikeforce-kitty-2-17643.swf
-FILE strikeforce-kitty-last-stand: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE strikeforce-kitty-last-stand: https://cdn.jsdelivr.net/gh/AmmarSAA/Flash-Games-Directory@26ff9bba4b72e84d1df454f1a0f3edf902406385/strike-force-kitty-last-stand.swf -> assets/cdn/5ced25aa-strike-force-kitty-last-stand.swf
-FILE strikeforce-kitty-league: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE strikeforce-kitty-league: https://cdn.jsdelivr.net/gh/bubbls/help@8f6ffb0ff01bd97f031916fe79ede433cc93c334/strikeforce-kitty-le-17901.swf -> assets/cdn/133a9838-strikeforce-kitty-le-17901.swf
-BASE OK bubbls/UGS-Assets@main/striker-dummies -> striker-dummies
-BASE REWRITE striker-dummies
+FILE streetfighter1arcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStreetFighter1Arcade.html -> assets/cdn/16723928-clStreetFighter1Arcade.html
+FILE streetfighter2arcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStreetFighter2Arcade.html -> assets/cdn/f8ec1eb5-clStreetFighter2Arcade.html
+FILE streetfighter2cearcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStreetFighter2CEArcade.html -> assets/cdn/7aff9bb0-clStreetFighter2CEArcade.html
+FILE streetfighter2hfarcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStreetFighter2HFArcade.html -> assets/cdn/5c5bc946-clStreetFighter2HFArcade.html
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubmachine.html: curl: (22) The requested URL returned error: 404
+
+BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
+FILE subway-surfers-barcelona: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubwaysurfersbarcelona.html -> assets/cdn/021c6104-clsubwaysurfersbarcelona.html
+BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
+BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
+BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
+FILE subway-surfers-buenosaires: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubwaysurfersbuenosaires.html -> assets/cdn/21e46020-clsubwaysurfersbuenosaires.html
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
@@ -471,81 +170,35 @@ BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubwaysurfersnewyork.html: curl: (22) The requested URL returned error: 404
+
+BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubwaysurferssingapore.html: curl: (22) The requested URL returned error: 404
+
+BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubwaysurferstokyo.html: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubwaysurfersvenice.html: curl: (22) The requested URL returned error: 404
+
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-FILE sugar-sugar: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sugar-sugar: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@8d554e4a81249b3b6c9c2ff2d0a5cd8fb51e0d9f/564746_sugar.swf -> ../_shared/2ce6ae396ab2-564746_sugar.swf
-FILE sugar-sugar-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sugar-sugar-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@8d554e4a81249b3b6c9c2ff2d0a5cd8fb51e0d9f/564746_sugar.swf -> ../_shared/2ce6ae396ab2-564746_sugar.swf
 BASE MISS eazy-man/shHH@refs/heads/main
-FILE summer-rider-3d: https://cdn.jsdelivr.net/gh/papamamia/447755@main/Build/SummerRiderV1.5.loader.js -> assets/cdn/fa84d914-SummerRiderV1.5.loader.js
-BASE OK bubbls/ugss@main/superchibiknight -> super-chibi-knight
-BASE REWRITE super-chibi-knight
 BASE SKIP 138.0MB bubbls/UGS-Assets@b8b1d16cab9dacd3362af133b63e9c782de5cd1d/super dark deception
-BASE OK Stinkalistic/UGS@main/MISC/superdromebugs -> super-drome-bugs
-BASE REWRITE super-drome-bugs
-FILE super-fighters: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE super-fighters: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@f58a9e8557e58b645c0aa293912bd26105aa4e4c/superfighters.swf -> assets/cdn/8dd8a2d4-superfighters.swf
-BASE OK bubbls/UGS-Assets@main/superhot -> super-hot
-BASE REWRITE super-hot
-FILE super-house-of-dead-ninjas: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE super-house-of-dead-ninjas: https://cdn.jsdelivr.net/gh/MrJeffFeng/Flash-Games@7902d47f0ce6ba6c9a9f3a3505c2ece0dee789ed/super-house-of-dead-ninjas.swf -> assets/cdn/01ad4349-super-house-of-dead-ninjas.swf
-BASE OK bubbls/UGS-Assets@ba989510bb0ce9d30d019e7449a9c4231737059c/super kid adventure -> super-kid-adventure
-BASE REWRITE super-kid-adventure
-BASE OK bubbls/UGS-Assets@027a7fc4b20820dc401547a74cf4f2ee875cd3e2/super liquid soccer -> super-liquid-soccer
-BASE REWRITE super-liquid-soccer
-FILE super-mario-63: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE super-mario-63: https://cdn.jsdelivr.net/gh/supaub/interstellar-3@8a13c735e7df6d86602b354e45c090405f21f45a/play/flash/swf/supermario63.swf -> ../_shared/60b8303c32b8-supermario63.swf
-FILE super-mario-63-flash: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE super-mario-63-flash: https://cdn.jsdelivr.net/gh/supaub/interstellar-3@8a13c735e7df6d86602b354e45c090405f21f45a/play/flash/swf/supermario63.swf -> ../_shared/60b8303c32b8-supermario63.swf
-BASE OK Stinkalistic/UGS@main/MISC/sm63 -> super-mario-63-redux
-BASE REWRITE super-mario-63-redux
-FILE super-mario-64: https://cdn.jsdelivr.net/gh/bubbls/clsm64@139e09e38eb3e7783095eee30fdf75b18ee59e02/Super%20Mario%2064%20(USA).zip -> assets/cdn/e3515204-Super_Mario_64_USA_.zip
-FILE super-mario-bros-2: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@ecba59cfe8a80084ba36c5baef464ecacff9daf2/Super%20Mario%20Bros.%202.zip -> assets/cdn/06d71d2e-Super_Mario_Bros._2.zip
-FILE super-mario-bros-3: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@a98e2e20cae75fa14dd7450a1047348ccf0786d6/Super%20Mario%20Bros.%203%20(USA).zip -> assets/cdn/44e3b8f2-Super_Mario_Bros._3_USA_.zip
+FILE super-mario-bros: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsupermariobros.html -> assets/cdn/1cb32dc4-clsupermariobros.html
 BASE SKIP 164.7MB greeniYT/smc@main/
-FILE super-mario-crossover: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE super-mario-crossover: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@ed10ffce285c6112cb6657c8e37ac71e5cd67301/SMB_Crossover.swf -> assets/cdn/167320b8-SMB_Crossover.swf
-FILE super-mario-kart: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/supermariokart/smk.smc -> assets/cdn/8db56c02-smk.smc
-FILE super-mario-world: https://cdn.jsdelivr.net/gh/meineas/peeppwa@15925083bbfa0297bdbd1aae2907caf13ec542e9/games/supermarioworld/smw.smc -> assets/cdn/9fbd0439-smw.smc
-FILE super-metroid: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/supermetroid/Super%20Metroid%20(Japan%2C%20USA)%20(En%2CJa).sfc -> assets/cdn/d022b664-Super_Metroid_Japan_USA_En_Ja_.sfc
-BASE OK bubbls/UGS-Assets@main/super-onion-boy-2 -> super-onion-boy-2
-BASE REWRITE super-onion-boy-2
-FILE super-smash-bros: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/supersmashbros/supersmashbros.zip -> assets/cdn/8fc3f317-supersmashbros.zip
-FILE super-smash-flash: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE super-smash-flash: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/supersmashflash/SuperSmash.swf -> assets/cdn/d560445e-SuperSmash.swf
-FILE super-smash-flash-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE super-smash-flash-2: https://cdn.jsdelivr.net/gh/KrMattsson/azurenaming@0d162ac92aa303b9fe7c30988877cb5025c7183a/Pages/ssf2-0.4a.swf -> assets/cdn/132ece6c-ssf2-0.4a.swf
-FILE super-smash-flash-v08: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
+FILE super-punch-out: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSuperPunchOutEN.html -> assets/cdn/f525908e-clSuperPunchOutEN.html
 FAILED https://cdn.jsdelivr.net/gh/marty-games/mga-flash@main/super-smash-flash/SuperSmash.swf: curl: (22) The requested URL returned error: 404
 
-BASE OK import-this/supercold@HEAD/. -> supercold
-BASE REWRITE supercold
-BASE OK greeniYT/stickywicky@main/. -> supreme-duelist
-BASE REWRITE supreme-duelist
-BASE OK bubbls/UGS-Assets@main/survival race v2 -> survival-race-v2
-BASE REWRITE survival-race-v2
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsuperhotmindcontrol.html: curl: (22) The requested URL returned error: 404
+
 BASE SKIP 220.1MB bubblfan/survivor@main/
-FILE sushi-cat: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sushi-cat: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@e0b7a03ba148ad1d6791ceedd4a0dca2947a77d8/sushicat.swf -> assets/cdn/05394be6-sushicat.swf
-BASE OK bubbls/UGS-Assets@027a7fc4b20820dc401547a74cf4f2ee875cd3e2/sushi unroll -> sushi-unroll
-BASE REWRITE sushi-unroll
-BASE OK mynamescrax/gamesforaetheris@main/switch -> switch
-BASE REWRITE switch
-BASE OK bubbls/UGS-Assets@f3c53772170e859bbd9af0cd42e4a2e2701a20af/switchblade -> switchblade
-BASE REWRITE switchblade
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clswarmz.html: curl: (22) The requested URL returned error: 404
+
+FILE swerve: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clswerve.html -> assets/cdn/feee299e-clswerve.html
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clswordmasters.html: curl: (22) The requested URL returned error: 404
+
 BASE SKIP 87.7MB bubbls/UGS-Assets@main/swordfight
-FILE swords-and-sandals: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE swords-and-sandals: https://cdn.jsdelivr.net/gh/filesmabex/z3x4@main/swords-and-sandals-2.swf -> ../_shared/95e8129e8191-swords-and-sandals-2.swf
-FILE swords-and-sandals-2: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE swords-and-sandals-2: https://cdn.jsdelivr.net/gh/filesmabex/z3x4@main/swords-and-sandals-2.swf -> ../_shared/95e8129e8191-swords-and-sandals-2.swf
-FILE swords-and-souls: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE swords-and-souls: https://cdn.jsdelivr.net/gh/QiProject/flash-games@2c50070cdb99750e4b4e7f79c7dd754d72105923/Swords-And-Souls.swf -> assets/cdn/2fdbeac5-Swords-And-Souls.swf
-FILE sydney-shark: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../_shared/d3db844ab2aa-ruffle.min.js
-FILE sydney-shark: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@aa1281febd1a3cb9d743fdda1b9691df68834386/sydneyShark.swf -> assets/cdn/6414618a-sydneyShark.swf
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsynergy.html: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsystembreach.html: curl: (22) The requested URL returned error: 404
+
