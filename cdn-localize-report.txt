@@ -149,3 +149,4 @@ FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsynergy.ht
 
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsystembreach.html: curl: (22) The requested URL returned error: 404
 
+RUFFLE FAIL module 'urllib' has no attribute 'request'
