@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "The Gateway",
+"dataUrl": "https://cdn.jsdelivr.net/gh/school-management-google/readme@main/Build/Seven%20Days%20in%20Purgatory.data.unityweb",
+"wasmCodeUrl": "https://cdn.jsdelivr.net/gh/school-management-google/readme@main/Build/Seven%20Days%20in%20Purgatory.wasm.code.unityweb",
+"wasmFrameworkUrl": "https://cdn.jsdelivr.net/gh/school-management-google/readme@main/Build/Seven%20Days%20in%20Purgatory.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
