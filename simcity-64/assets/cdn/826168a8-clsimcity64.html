@@ -39,7 +39,7 @@
 			box-shadow: 0px 0px 10px 2px #000000;
 		}
 	</style>
-	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap" rel="stylesheet">
+	<link href="../../../_shared/b3879e552666-fonts-b3879e5526.css" rel="stylesheet">
 	<style type="text/css">
 		#button {
 			display: none;
@@ -83,7 +83,7 @@
                 EJS_core = "parallel_n64";
                 EJS_color = "#000000";
                 EJS_startOnLoaded = true;
-                EJS_pathtodata = "https://cdn.jsdelivr.net/gh/genizy/emu@master/";
+                EJS_pathtodata = "../../../_shared/emu/";
                 EJS_gameUrl = "https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/n64/SimCity%2064%20(Japan)%20(64DD)%20%5BHack%20by%20Zoinkity%20v1.1%5D%20%5BT-En%20by%20Ozidual%20v0.6.38%5D.7z";
                 EJS_defaultOptions = {
         vsync: "disabled"
@@ -93,10 +93,10 @@
             document.getElementById("startButton").addEventListener("click", startGame);
             function loadGame() {
                 var script = document.createElement("script");
-                script.src = "https://cdn.jsdelivr.net/gh/genizy/emu@master/loader.js";
+                script.src = "../../../_shared/emu/loader.js";
                 document.body.appendChild(script);
 		var script = document.createElement("script");
-                script.src = "https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js";
+                script.src = "../../../_shared/cccb2f51c2af-cloak.js";
                 document.body.appendChild(script);
             }
 	</script>

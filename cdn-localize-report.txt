@@ -8,113 +8,211 @@ FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a5648
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE advent-neon: https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js -> assets/cdn/05353f8b-jszip.min.js
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
+FILE attack-hole: https://rawcdn.githack.com/bubbls/youtube-playables/main/ytgame.js -> assets/cdn/68ca46c5-ytgame.js
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE bmx2: https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile@main/UGS-Files/clBMX2.html -> assets/cdn/34a90aa0-clBMX2.html
-FILE saihatestation: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsaihatestation.html -> assets/cdn/3e76a9b2-clsaihatestation.html
-FILE sandboxcity: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsandboxcity.html -> assets/cdn/d4d60e6d-clsandboxcity.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+BASE SKIP 865.7MB web-ports/saihate-station@main/
+BASE OK faralong/all@main/sandboxcity -> sandboxcity
+BASE REWRITE cdn
 BASE SKIP 60.7MB R74nCom/sandboxels@main/
-FILE sands-of-the-coliseum: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsandsofthecoliseum.html -> assets/cdn/0dcca61e-clsandsofthecoliseum.html
-FILE santa-run: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsantarun.html -> assets/cdn/7a5c80d0-clsantarun.html
-FILE sas-zombie-assault-2: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsaszombieassault2.html -> assets/cdn/bf11cb89-clsaszombieassault2.html
-FILE sayoris-notebook: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsayorisnotebook.html -> assets/cdn/7a746c8f-clsayorisnotebook.html
-FILE scale-the-depths: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscalethedepths.html -> assets/cdn/980c6482-clscalethedepths.html
-FILE scarlet-and-violet: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscarletandviolet.html -> assets/cdn/74f4116b-clscarletandviolet.html
-FILE scarlet-shift: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscarletshift.html -> assets/cdn/e4a4e7be-clscarletshift.html
-FILE scary-teacher-3d: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscaryteacher3d.html -> assets/cdn/c9226b13-clscaryteacher3d.html
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@c969987a324abc88462b466c55eed91248737822/SOC_BerzerkLand.swf -> 5c43e50d-SOC_BerzerkLand.swf
+FILE cdn: https://cdn.jsdelivr.net/gh/somer-sheff-73/xv@main/ruffle.js -> f0672f91-ruffle.js
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/60-seconds-santa-run.swf -> 3f37ae53-60-seconds-santa-run.swf
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/sas-zombie-assault-2.swf -> be9db0f0-sas-zombie-assault-2.swf
+BASE SKIP 76.4MB shayderrr/funkinmods@main/ddlc/game.fnfhub.net/25210
+BASE OK bubbls/UGS-Assets@main/scale-the-depths -> scale-the-depths
+BASE REWRITE cdn
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/merge.js -> ../../../_shared/0008517e4aef-merge.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/eazy-man/shHH@main/gba/Scarlet%2CViolet%20%26%20Indigo%5BCOMPLETE%5D.zip -> 07a3e218-Scarlet_Violet_Indigo_COMPLETE_.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+BASE OK Stinkalistic/UGS@main/MISC/scarletshift -> scarlet-shift
+BASE REWRITE cdn
+BASE SKIP 157.1MB bubbls/UGS-Assets@main/scary-teacher-3D
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/merge.js -> ../../../_shared/0008517e4aef-merge.js
 BASE SKIP 301.5MB bubblfan/web-port@latest/schoolboy-runaway
-FILE scrapyard-dog: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscrapyarddog.html -> assets/cdn/e41f011a-clscrapyarddog.html
-FILE scribblenauts: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clscribblenauts.html -> assets/cdn/559db2ea-clscribblenauts.html
-FILE sd-the-war: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsd-thewar.html -> assets/cdn/33e48171-clsd-thewar.html
-FILE sdf: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsdf.html -> assets/cdn/bc2700d0-clsdf.html
-FILE sega2gg: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsega2gg.html -> assets/cdn/480d8285-clsega2gg.html
-FILE segasonicthehedgehog: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSegaSonicTheHedgehog.html -> assets/cdn/77246106-clSegaSonicTheHedgehog.html
-FILE sentry-fortress: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsentryfortress.html -> assets/cdn/b57e6bc0-clsentryfortress.html
-FILE sereni-trove: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clserenitrove.html -> assets/cdn/f526abf1-clserenitrove.html
-FILE serving-up-madness: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clservingupmadness.html -> assets/cdn/64a0a798-clservingupmadness.html
-FILE sfk: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsfk.html -> assets/cdn/c17ed0f2-clsfk.html
-FILE sfk-last-stand: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsfklaststand.html -> assets/cdn/6364eea7-clsfklaststand.html
-FILE sfk-league: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsfkleague.html -> assets/cdn/767047cd-clsfkleague.html
-FILE sfk2: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsfk2.html -> assets/cdn/dfd5b0cb-clsfk2.html
-FILE shadow-dancer: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshadowdancer.html -> assets/cdn/66fe8d21-clshadowdancer.html
-FILE shaggy: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshaggy.html -> assets/cdn/1b1cd1cd-clshaggy.html
-FILE shantae-gb: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshantaegb.html -> assets/cdn/a3bfc1a6-clshantaegb.html
-FILE shape-transform: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshapetransform.html -> assets/cdn/d413348a-clshapetransform.html
-FILE shc1: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshc1.html -> assets/cdn/77a0801f-clshc1.html
-FILE shc2: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshc2.html -> assets/cdn/1fa92880-clshc2.html
-FILE shc3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshc3.html -> assets/cdn/7e843399-clshc3.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/Scrapyard-Dog_Lynx_EN.zip -> 59529b3b-Scrapyard-Dog_Lynx_EN.zip
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@b77a6689bec88ed0c677ce4274062c2fac804cef/Scribblenauts%20(USA)%20(En%2CFr%2CEs%2CPt).zip -> 01cf5f8a-Scribblenauts_USA_En_Fr_Es_Pt_.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+BASE SKIP 84.9MB greeniYT/y@main/stick-duel-the-war/files.twoplayergames.org/files/games/o1/Stick_Duel_The_War
+BASE OK bubbls/UGS-Assets@main/tag -> sdf
+BASE REWRITE cdn
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@166ec3b0a83d406f20475f40e98b5b24570bfe6b/Sonic%20The%20Hedgehog%202%20(World).zip -> daaa0372-Sonic_The_Hedgehog_2_World_.zip
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/mame/sonic.zip -> f59853aa-sonic.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://cdn.jsdelivr.net/gh/hubertscode/assets@0959ed15fc96078cbb053e4e3c259a62b3e9e296/Run%202/waflash/waflash-style.css -> 7019e96f-waflash-style.css
+FILE cdn: https://cdn.jsdelivr.net/gh/Stinkalistic/Flash-games@main/446689_Sentry_Fortress.swf -> be6ccd0b-446689_Sentry_Fortress.swf
+FILE cdn: https://cdn.jsdelivr.net/gh/zhit73/wafedit@b42643dd53c4bea37ca965084165338dd873bae5/wasm/waflash-player.min.js -> 337f0371-waflash-player.min.js
+BASE OK bubbls/UGS-Assets@main/serenitrove -> sereni-trove
+BASE REWRITE cdn
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+SKIP size 73.6MB https://raw.githubusercontent.com/Stinkalistic/UGS/refs/heads/main/SWFs/servingupmadness.swf
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/AmmarSAA/Flash-Games-Directory@26ff9bba4b72e84d1df454f1a0f3edf902406385/strikeforce_kitty.swf -> ../../../_shared/d756f1417b03-strikeforce_kitty.swf
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/AmmarSAA/Flash-Games-Directory@26ff9bba4b72e84d1df454f1a0f3edf902406385/strike-force-kitty-last-stand.swf -> ../../../_shared/5ced25aabdf2-strike-force-kitty-last-stand.swf
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/help@8f6ffb0ff01bd97f031916fe79ede433cc93c334/strikeforce-kitty-le-17901.swf -> ../../../_shared/133a98380f12-strikeforce-kitty-le-17901.swf
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/help@e3d301967d9bcbe4aa367f30f041cf5e18bf63f2/strikeforce-kitty-2-17643.swf -> ../../../_shared/7c0bbca3eb7f-strikeforce-kitty-2-17643.swf
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/aurpon70-gif/Gunny@main/shdancer.zip -> 984ce7e2-shdancer.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+BASE SKIP 181.7MB mll-enh/die@fe0e5b08118dacdefc79f2b1427b283be80a9447/shaggy
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/gb/Shantae%20(USA).zip -> 9a4718a6-Shantae_USA_.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/ftbaldana/heex@main/Build/Build.jpg -> d723f6e9-Build.jpg
+FILE cdn: https://cdn.jsdelivr.net/gh/ftbaldana/heex@main/TemplateData/Orientation/orientation.png -> e103cfc3-orientation.png
+FILE cdn: https://cdn.jsdelivr.net/gh/ftbaldana/heex@main/Build/ShapeShifter_H5_V50.loader.js -> 0c6765d2-ShapeShifter_H5_V50.loader.js
+FILE cdn: https://cdn.jsdelivr.net/gh/ftbaldana/heex@main/TemplateData/Orientation/template.json -> e487a7dc-template.json
+FILE cdn: https://cdn.jsdelivr.net/gh/ftbaldana/heex@main/js/rhmApi.js -> 891e3453-rhmApi.js
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_1.swf -> ../../../_shared/06b64c174824-sift_heads_cartels_act_1.swf
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_2.swf -> ../../../_shared/5cd814aea4aa-sift_heads_cartels_act_2.swf
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4336dd2ad1636a6ea9344bfa105df0e2014edb61/sift_heads_cartels_act_3.swf -> ../../../_shared/82f14d4482e3-sift_heads_cartels_act_3.swf
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshellshockers.html: curl: (22) The requested URL returned error: 404
 
 BASE SKIP 232.1MB slqntdevss/ShiftAtMidnightPort@latest/
-FILE shift3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshift3.html -> assets/cdn/32552563-clshift3.html
-FILE shinobi: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshinobi.html -> assets/cdn/d0d8d64e-clshinobi.html
-FILE shinobi-revenge: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshinobirevenge.html -> assets/cdn/7c5a16b2-clshinobirevenge.html
-FILE shinobi3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshinobi3.html -> assets/cdn/7495cd57-clshinobi3.html
-FILE shotout-4: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshotout4.html -> assets/cdn/ee5061a4-clshotout4.html
-FILE shred-mill: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshredmill.html -> assets/cdn/5cc3ae73-clshredmill.html
-FILE shred-sauce: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshredsauce.html -> assets/cdn/8daa7cc6-clshredsauce.html
-FILE shrek-2: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshrek-2.html -> assets/cdn/cb33161f-clshrek-2.html
-FILE shrubnaut: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clshrubnaut.html -> assets/cdn/50203d05-clshrubnaut.html
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FILE cdn: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/shift3.swf -> bf362c1a-shift3.swf
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/aurpon70-gif/Gunny@main/shinobi.zip -> b5dd0d81-shinobi.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/aurpon70-gif/Gunny@main/Revenge%20of%20Shinobi%2C%20The%20(Japan%2C%20USA)%20(En).md -> a5f3ef07-Revenge_of_Shinobi_The_Japan_USA_En_.md
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/aurpon70-gif/Gunny@main/Shinobi%20III%20-%20Return%20of%20the%20Ninja%20Master%20(USA).md -> 7071f025-Shinobi_III_-_Return_of_the_Ninja_Master_USA_.md
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://cdn.jsdelivr.net/gh/st39/sdk@main/api.js -> bd41ea11-api.js
+BASE OK Stinkalistic/UGS@main/MISC/shredmill -> shred-mill
+BASE REWRITE cdn
+BASE OK bubbls/UGS-Assets@main/shredsauce -> shred-sauce
+BASE REWRITE cdn
+FILE cdn: http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js -> caf94239-jquery.min.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/shrek2/Shrek%202%20(USA%2C%20Europe).zip -> 938f7046-Shrek_2_USA_Europe_.zip
+BASE OK Stinkalistic/UGS@main/MISC/shrubnaut -> shrubnaut
+BASE REWRITE cdn
 BASE SKIP 279.2MB Stinkalistic/UGS@main/UNITY/fent
-FILE side-pocket: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsidepocket.html -> assets/cdn/ff7a2445-clsidepocket.html
-FILE silk: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsilk.html -> assets/cdn/fd85b681-clsilk.html
-FILE silo-showdown: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsiloshowdow.html -> assets/cdn/3b058f30-clsiloshowdow.html
-FILE silver: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsilver.html -> assets/cdn/ee1c11ab-clsilver.html
-FILE simcity-64: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsimcity64.html -> assets/cdn/826168a8-clsimcity64.html
-FILE simpsons-arcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsimpsonsarcade.html -> assets/cdn/d47c13c4-clsimpsonsarcade.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@479042f2dbc6a982ed6b0935ef620d32d5220ae0/Side%20Pocket%20(USA).zip -> 302c9c54-Side_Pocket_USA_.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+SKIP size 322.8MB https://bbcdn.githack.com/johnbones/john/raw/main/Silent%20Hill%20(Europe)%20(En,Fr,De,Es,It).zip
+BASE OK bubbls/UGS-Assets@c81e0934c16b6abe6c47b36b862ed26ce3a132a5/silk -> silk
+BASE REWRITE cdn
+BASE OK bubbls/UGS-Assets@5a10e4807bce6070b5f3f7f18c1eed34230cddf2/silohuette showdown -> silo-showdown
+BASE REWRITE cdn
+BASE OK shayderrr/funkinmods@main/silver/game.fnfhub.net/6831 -> silver
+BASE REWRITE cdn
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/n64/SimCity%2064%20(Japan)%20(64DD)%20%5BHack%20by%20Zoinkity%20v1.1%5D%20%5BT-En%20by%20Ozidual%20v0.6.38%5D.7z: curl: (22) The requested URL returned error: 404
+
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/Deformed-steve/emujsgames@main/simpsons.zip -> 57d5aff9-simpsons.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
 BASE SKIP 63.6MB bubbls/UGS-Assets@main/six-ways-to-suffer-lolol
-FILE skate-it: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clskateit.html -> assets/cdn/0c3c054d-clskateit.html
-FILE skinwalker: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clskinwalker.html -> assets/cdn/3b679812-clskinwalker.html
-FILE skong: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clskong.html -> assets/cdn/8de07503-clskong.html
-FILE skyriders: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSkyRiders.html -> assets/cdn/59a79fb3-clSkyRiders.html
-FILE slope3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clslope3.html -> assets/cdn/c58cb619-clslope3.html
+FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@10920f89903a73d90f5fc53d30fd90b49a1d292e/Skate%20It%20(USA)%20(En%2CFr%2CDe%2CEs%2CIt%2CNl)/Skate%20It%20(USA)%20(En%2CFr%2CDe%2CEs%2CIt%2CNl).nds: curl: (22) The requested URL returned error: 404
+
+BASE OK bubbls/UGS-Assets@main/skinwalker -> skinwalker
+BASE REWRITE cdn
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/ROMs/skong.gba -> 0b6af1fa-skong.gba
+BASE SKIP 95.5MB genizy/cg-rip@main/sky-riders
+BASE OK bubbls/UGS-Assets@main/slope 3 -> slope3
+BASE REWRITE cdn
 BASE MISS fork-so-the-site-i-take-wont-be-deleted/bulbasaurchat.github.io@main/games/slowroads
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsm64.html: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/n64/SM64Land/Super%20Mario%2064%20Land.z64: curl: (22) The requested URL returned error: 404
 
-FILE smash-hit-ripoff: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSmash%20Hit%20Ripoff.html -> assets/cdn/c9c0f2be-clSmash_Hit_Ripoff.html
+BASE OK greeniYT/y@main/smashhit -> smash-hit-ripoff
+BASE REWRITE cdn
+FILE cdn: https://cdn.jsdelivr.net/gh/greeniYT/y@main/shofficial/Build/Smash-Hit2.json -> d0eb1e12-Smash-Hit2.json
+FILE cdn: https://cdn.jsdelivr.net/gh/greeniYT/gug@main/assets/greeni-text.png -> 6bcc9f35-greeni-text.png
+FILE cdn: https://cdn.jsdelivr.net/gh/greeniYT/gug@main/assets/raebg.png -> 2a03bab4-raebg.png
 BASE SKIP 92.8MB Pok12d/ta@main/sma
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsmw.html: curl: (22) The requested URL returned error: 404
 
-FILE snake: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnakelike.html -> assets/cdn/c64caedc-clsnakelike.html
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@0e8e7cf4a898b05cac182b0bec565e4f545010e5/snakelike.js -> fa4a9211-snakelike.js
 FAILED https://cdn.jsdelivr.net/gh/meymenet645x/xu@main/TemplateData/style.css: curl: (22) The requested URL returned error: 404
 
-FILE snow-bros: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowbros.html -> assets/cdn/09b8ae16-clsnowbros.html
-FILE snow-brothers: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowbrothers.html -> assets/cdn/f16471f7-clsnowbrothers.html
-FILE snow-drift: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowdrift.html -> assets/cdn/3cfbb81c-clsnowdrift.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/ROMs/snowbros.zip -> 07dd3abe-snowbros.zip
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/Deformed-steve/emujsgames@main/Snow%20Brothers%20(USA).nes -> 2a5f4a12-Snow_Brothers_USA_.nes
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/swf/SnowDrift/Snow_Drift.swf: curl: (22) The requested URL returned error: 404
+
 FAILED https://cdn.jsdelivr.net/gh/Vrkids2009/snowrider3d@6b7c2b9167b592528b221428414e63f06c4640b9/Build/SnowRider3D.json: curl: (22) The requested URL returned error: 404
 
-FILE snow-white: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowwhite.html -> assets/cdn/04ebb022-clsnowwhite.html
-FILE snowballio: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowballio.html -> assets/cdn/24d7053b-clsnowballio.html
-FILE snowbrosgenesis: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSnowBrosGenesis.html -> assets/cdn/2600c8a4-clSnowBrosGenesis.html
-FILE snowroad: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsnowroad.html -> assets/cdn/2f92b541-clsnowroad.html
+FILE cdn: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/UnityProgress.js -> 1c97c589-UnityProgress.js
+FILE cdn: https://cdn.jsdelivr.net/gh/gertdoro/SQLite4Unity3d@eda39654f6ca782386c5d8c43677a36873fc1319/Example/Assets/js/sb.js -> 97d2fb36-sb.js
+FILE cdn: https://cdn.jsdelivr.net/gh/gertdoro/SQLite4Unity3d@eda39654f6ca782386c5d8c43677a36873fc1319/Example/Assets/js/sb.json -> 397f139c-sb.json
+FILE cdn: https://cdn.jsdelivr.net/gh/paigerodeghero/academicwebsite@897c910c65e6c68b04c44a6b6eba0b99d0f2f2cf/TemplateData/style.css -> 5c9e4317-style.css
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/genesis/Snow%20Bros.%20-%20Nick%20%26%20Tom%20(Japan)%20(En).zip: curl: (22) The requested URL returned error: 404
+
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+BASE OK cooldude2349/everything@main/snowroadd -> snowroad
+BASE REWRITE cdn
 BASE SKIP 82.5MB bubbls/UGS-Assets@main/solar-sandbox
 BASE SKIP 108.4MB bubbls/youtube-playables@a2e4bb68955f2665d16669bbbf7be3123870c2e0/solar-smash
 BASE SKIP 108.4MB bubbls/youtube-playables@a2e4bb68955f2665d16669bbbf7be3123870c2e0/solar-smash
 BASE SKIP 428.2MB bubbls/ports@main/sonic-and-the-falling-star
-FILE sonic-knuckles-3: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%203.html -> assets/cdn/efe84662-clSonic_Knuckles_Sonic_The_Hedgehog_3.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/GarrettPlaysVRandPC/Sonic-Knuckles-Sonic-the-Hedgehog-3-Lock-on-Combination-@main/Sonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%203%20(USA)%20(Lock-on%20Combination).md -> 395d7dd7-Sonic_Knuckles_Sonic_The_Hedgehog_3_USA_Lock-on_Combination_.md
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
 FAILED https://cdn.jsdelivr.net/gh/UGBONTOP/ugs-sbr2v2.2.4@main/index.js: curl: (22) The requested URL returned error: 404
 
-FILE sonic1scorerush: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonic1ScoreRush.html -> assets/cdn/cd07b540-clSonic1ScoreRush.html
-FILE sonic1thesuperchallenges: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonic1TheSuperChallenges.html -> assets/cdn/096e8296-clSonic1TheSuperChallenges.html
-FILE sonic2scorerush: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonic2ScoreRush.html -> assets/cdn/cc720bb4-clSonic2ScoreRush.html
-FILE sonicclassics: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonicClassics.html -> assets/cdn/6df804c3-clSonicClassics.html
-FILE sonichellfiresaga: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonicHellfireSaga.html -> assets/cdn/fc4875bb-clSonicHellfireSaga.html
-FILE sonicinsm64: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonicInSM64.html -> assets/cdn/284cbdda-clSonicInSM64.html
-FILE sonicinsmw: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSonicinSMW.html -> assets/cdn/cdf3c865-clSonicinSMW.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@3a8d02492341a69885547eedb096b15febd3d6fd/Sonic%201%20-%20Score%20Rush%20(REV02A).bin -> 01aa540c-Sonic_1_-_Score_Rush_REV02A_.bin
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/genesis/S1SC_-_First_Demo_Hotfix_2.zip: curl: (22) The requested URL returned error: 404
+
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@bf13d667785f2ef17710a3554da73e6f6e0f6ee0/%5BSHC%5D%20%5Bcontest2023%5D%20787%20-%20Sonic%202%20-%20Score%20Rush%20(By%20Giovanni).bin -> bd865324-_SHC_contest2023_787_-_Sonic_2_-_Score_Rush_By_Giovanni_.bin
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/genesis/Sonic%20Compilation%20~%20Sonic%20Classics%20(World)%20(v1.1).zip: curl: (22) The requested URL returned error: 404
+
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@24531ceb481dd8928232a0f605e1cba815d2419a/HellfireSaga_v1_1.gen -> fd433882-HellfireSaga_v1_1.gen
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/n64/SonicInSM64.iso: curl: (22) The requested URL returned error: 404
+
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/sfc/Sonic%20in%20SMW.7z -> b6b52202-Sonic_in_SMW.7z
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
 BASE SKIP 1092.9MB bubblfan/soundboard@main/
-FILE sovereignoftheskys: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSovereignoftheskys.html -> assets/cdn/cb4f06ef-clSovereignoftheskys.html
-FILE space-invaders: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clspaceinvaders.html -> assets/cdn/dd3151d9-clspaceinvaders.html
+FAILED https://cdn.jsdelivr.net/gh/TheBestInSh0w/WLG-FILES-edu@main/Sovereignoftheskys.gba: curl: (22) The requested URL returned error: 404
+
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@00b075dab1123c34f488d1e9c87c945716887ede/Space%20Invaders%20(USA).zip -> 7112a239-Space_Invaders_USA_.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
 BASE SKIP 63.0MB bubbls/UGS-Assets@main/space wars battleground
-FILE spelunky: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clspelunky.html -> assets/cdn/9d2d0f73-clspelunky.html
+BASE OK bubbls/UGS-Assets@main/spelunky -> spelunky
+BASE REWRITE cdn
 FAILED https://cdn.jsdelivr.net/gh/by5b/r474@main/gamesnacks.js: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/by5b/r474@main/lib/VOODOO-H5SDK.snacks.js: curl: (22) The requested URL returned error: 404
@@ -123,12 +221,18 @@ FAILED https://cdn.jsdelivr.net/gh/by5b/r474@main/main.js: curl: (22) The reques
 
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clspongebobadventure.html: curl: (22) The requested URL returned error: 404
 
-FILE sportsheads-icehockey: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSportsHeadsIceHockey.html -> assets/cdn/b49270ee-clSportsHeadsIceHockey.html
+FILE cdn: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> ../../../_shared/d3db844ab2aa-ruffle.min.js
+FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/swf/sports_heads_ice_hockey.swf: curl: (22) The requested URL returned error: 404
+
 BASE SKIP 129.0MB bubbls/UGS-Assets@ec2e5986b8bd87311798b8b90392ecc950ff9051/sprunked
 BASE SKIP 128.9MB bubblfan/sprunki@HEAD/
-FILE ssf2-arcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSSF2Arcade.html -> ../_shared/91578ac0e40e-clSSF2Arcade.html
-FILE ssf2tarcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSSF2TArcade.html -> assets/cdn/7914dd19-clSSF2TArcade.html
-FILE stack: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clgymstack.html -> assets/cdn/26827c52-clgymstack.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FAILED https://cdn.jsdelivr.net/gh/schoolstuff1337/supplies@main/mame/sf/ssf2tu.zip: curl: (22) The requested URL returned error: 404
+
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+BASE OK bubbls/youtube-playables@main/gym-stack -> stack
+BASE REWRITE cdn
+FILE cdn: https://cdn.jsdelivr.net/gh/bubbls/youtube-playables@99ecada1f93519e35e655df5b2abc64e469ca31d/gamesnacks.js -> 477e17b7-gamesnacks.js
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clstardewvalley.html: curl: (22) The requested URL returned error: 404
 
 BASE SKIP 89.9MB bubbls/UGS-Assets@main/station-meltdown
@@ -144,24 +248,33 @@ FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clstickmande
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clstickmanfighter.html: curl: (22) The requested URL returned error: 404
 
 BASE SKIP 110.3MB bubbls/UGS-Assets@main/STICKMAN GTA
-FILE stickmankingdomclash: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStickmanKingdomclash.html -> assets/cdn/194c89e9-clStickmanKingdomclash.html
+BASE OK bubbls/UGS-Assets@646b8183aa1d6c61b073dc5ade2f550bace125b9/Stickman Clash -> stickmankingdomclash
+BASE REWRITE cdn
 BASE SKIP 63.6MB bubbls/UGS-Assets@5765230aac4c0072a5b1021eab4a6a4b9df597f9/stone-grass-mowing-simulator
 FAILED https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/mame/sfa2u.zip: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/Ray52511/Emujsgames@main/sfa3u/Street%20Fighter%20Alpha%203%20(USA).chd: curl: (22) The requested URL returned error: 404
 
-FILE streetfighter1arcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStreetFighter1Arcade.html -> assets/cdn/16723928-clStreetFighter1Arcade.html
-FILE streetfighter2arcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStreetFighter2Arcade.html -> assets/cdn/f8ec1eb5-clStreetFighter2Arcade.html
-FILE streetfighter2cearcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStreetFighter2CEArcade.html -> assets/cdn/7aff9bb0-clStreetFighter2CEArcade.html
-FILE streetfighter2hfarcade: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clStreetFighter2HFArcade.html -> assets/cdn/5c5bc946-clStreetFighter2HFArcade.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/ap-math-class/exams@latest/mame/sf.zip -> cde1d8ff-sf.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/ap-math-class/exams@latest/mame/sf2.zip -> f83c5396-sf2.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/ap-math-class/exams@latest/mame/sf2ce.zip -> 68dc917a-sf2ce.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/ap-math-class/exams@latest/mame/sf2hfu.zip -> 7feac0fb-sf2hfu.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubmachine.html: curl: (22) The requested URL returned error: 404
 
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-FILE subway-surfers-barcelona: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubwaysurfersbarcelona.html -> assets/cdn/021c6104-clsubwaysurfersbarcelona.html
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
-FILE subway-surfers-buenosaires: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsubwaysurfersbuenosaires.html -> assets/cdn/21e46020-clsubwaysurfersbuenosaires.html
+BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
+BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
@@ -184,9 +297,10 @@ BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE SKIP 1887.5MB bubbls/subwaysurfersmerge@HEAD/
 BASE MISS eazy-man/shHH@refs/heads/main
 BASE SKIP 138.0MB bubbls/UGS-Assets@b8b1d16cab9dacd3362af133b63e9c782de5cd1d/super dark deception
-FILE super-mario-bros: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsupermariobros.html -> assets/cdn/1cb32dc4-clsupermariobros.html
 BASE SKIP 164.7MB greeniYT/smc@main/
-FILE super-punch-out: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clSuperPunchOutEN.html -> assets/cdn/f525908e-clSuperPunchOutEN.html
+FILE cdn: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../../../_shared/b3879e552666-fonts-b3879e5526.css
+FILE cdn: https://cdn.jsdelivr.net/gh/ap-math-class/exams@main/sfc/Super%20Punch-Out!!%20(USA).zip -> 93e98335-Super_Punch-Out_USA_.zip
+FILE cdn: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../../../_shared/cccb2f51c2af-cloak.js
 FAILED https://cdn.jsdelivr.net/gh/marty-games/mga-flash@main/super-smash-flash/SuperSmash.swf: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsuperhotmindcontrol.html: curl: (22) The requested URL returned error: 404
@@ -194,7 +308,6 @@ FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clsuperhotmi
 BASE SKIP 220.1MB bubblfan/survivor@main/
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clswarmz.html: curl: (22) The requested URL returned error: 404
 
-FILE swerve: https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clswerve.html -> assets/cdn/feee299e-clswerve.html
 FAILED https://cdn.jsdelivr.net/npm/ugs-singlefiles@1.0.6/UGS-Files/clswordmasters.html: curl: (22) The requested URL returned error: 404
 
 BASE SKIP 87.7MB bubbls/UGS-Assets@main/swordfight
